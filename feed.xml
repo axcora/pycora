@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>PYCORA</title>
+        <description>Static Site Generator with Python - Fast, Minimal, Elegant</description>
+        <link>http://localhost:8000</link>
+        <atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml" />
+        <language>id-ID</language>
+        <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+        <generator>PyCora SSG</generator>
+        
+        
+        <item>
+            <title>Why Static Sites Are Better for Your Blog</title>
+            <description><![CDATA[<h1 id="why-static-sites-are-better-for-your-blog">Why Static Sites Are Better for Your Blog</h1>
+<p>Static sites are making a comeback, and for good reason. Here's why you should consider using PyCora for your blog.</p>
+<h2 id="speed">Speed</h2>
+<p>Static sites are incredibly fast. There's no database queries, no server-side processing, just pure HTML files served instantly.</p>
+<p><strong>Performance comparison:</strong>
+- Static site: 50-100ms load time
+- WordPress: 500-2000ms load time</p>
+<h2 id="security">Security</h2>
+<p>With no database, there are no SQL injection vulnerabilities. Static sites are inherently secure.</p>
+<h2 id="cost">Cost</h2>
+<p>Static sites can be hosted for free or very cheaply on:
+- GitHub Pages (free)
+- Netlify (free tier)
+- Vercel (free tier)
+- Cloudflare Pages (free)</p>
+<h2 id="scalability">Scalability</h2>
+<p>Static sites handle traffic spikes effortlessly. There's no database to overload.</p>
+<h2 id="version-control">Version Control</h2>
+<p>Static sites work perfectly with Git:
+- Track all changes
+- Easy rollbacks
+- Collaborative workflow</p>
+<h2 id="developer-experience">Developer Experience</h2>
+<p>Static site generators like PyCora offer:
+- Markdown writing
+- Live reload
+- Easy customization
+- Clean code</p>
+<h2 id="content-longevity">Content Longevity</h2>
+<p>Your content remains accessible forever. No CMS updates, no compatibility issues.</p>
+<hr />
+<p><strong>Make the switch to static sites with PyCora!</strong> 🌟</p>]]></description>
+            <link>http://localhost:8000/blog/better/</link>
+            <guid>http://localhost:8000/blog/better/</guid>
+            <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+            
+            <category>static-site</category>
+            
+            <category>blogging</category>
+            
+            <category>benefits</category>
+            
+            <category>comparison</category>
+            
+            
+            <author>Axcora</author>
+            
+        </item>
+        
+        <item>
+            <title>How to Customize Your PyCora Theme</title>
+            <description><![CDATA[<h1 id="how-to-customize-your-pycora-theme">How to Customize Your PyCora Theme</h1>
+<p>PyCora is designed to be easily customizable. You can change the look and feel of your site by modifying the templates and CSS.</p>
+<h2 id="css-customization">CSS Customization</h2>
+<p>Place your custom CSS in <code>static/css/main.css</code>:</p>
+<pre><code class="language-css">/* Custom colors */
+:root {
+  --primary-color: #6C63FF;
+  --secondary-color: #FF6584;
+}
+
+/* Custom fonts */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom styling */
+.blog-card {
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+</code></pre>
+<h2 id="template-customization">Template Customization</h2>
+<p>PyCora uses Jinja2 templates located in the <code>templates/</code> directory:</p>
+<ul>
+<li><code>base.html</code> - Main layout with navbar, footer, SEO</li>
+<li><code>landing.html</code> - Homepage design</li>
+<li><code>blog.html</code> - Blog listing page</li>
+<li><code>post.html</code> - Single post layout</li>
+<li><code>page.html</code> - Static page layout</li>
+</ul>
+<h2 id="changing-colors">Changing Colors</h2>
+<p>Edit <code>config.yaml</code> or directly in <code>base.html</code>:</p>
+<pre><code class="language-html">&lt;style&gt;
+  .text-gradient {
+    background: linear-gradient(135deg, #your-color-1, #your-color-2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+&lt;/style&gt;
+</code></pre>
+<h2 id="adding-fonts">Adding Fonts</h2>
+<p>Add custom fonts in <code>base.html</code>:</p>
+<pre><code class="language-html">&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Your+Font&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+</code></pre>
+<hr />
+<p><strong>Create your unique look with PyCora!</strong> 🎨</p>]]></description>
+            <link>http://localhost:8000/blog/custom/</link>
+            <guid>http://localhost:8000/blog/custom/</guid>
+            <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+            
+            <category>customization</category>
+            
+            <category>theming</category>
+            
+            <category>css</category>
+            
+            <category>design</category>
+            
+            
+            <author>Axcora</author>
+            
+        </item>
+        
+        <item>
+            <title>Deploy Your Static Site Anywhere</title>
+            <description><![CDATA[<h1 id="deploy-your-static-site-anywhere">Deploy Your Static Site Anywhere</h1>
+<p>One of the biggest advantages of static sites is the ability to deploy them anywhere. Here's how to deploy your PyCora site to various hosting platforms.</p>
+<h2 id="netlify">Netlify</h2>
+<ol>
+<li>Build your site: <code>python ssg.py</code></li>
+<li>Drag and drop the <code>output/</code> folder to Netlify dashboard</li>
+<li>Or connect your GitHub repository for automatic deployments</li>
+</ol>
+<h2 id="vercel">Vercel</h2>
+<pre><code class="language-bash"># Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+cd output
+vercel --prod
+</code></pre>
+<h2 id="github-pages">GitHub Pages</h2>
+<pre><code class="language-bash"># Build your site
+python ssg.py
+
+# Deploy to gh-pages branch
+git subtree push --prefix output origin gh-pages
+</code></pre>
+<h2 id="cloudflare-pages">Cloudflare Pages</h2>
+<ol>
+<li>Build your site: <code>python ssg.py</code></li>
+<li>Connect your GitHub repository to Cloudflare Pages</li>
+<li>Set build command: <code>python ssg.py</code></li>
+<li>Set output directory: <code>output</code></li>
+</ol>
+<h2 id="any-static-hosting">Any Static Hosting</h2>
+<p>Just upload the <code>output/</code> directory to:
+- <strong>Hostinger</strong>
+- <strong>Namecheap</strong>
+- <strong>Bluehost</strong>
+- <strong>AWS S3</strong>
+- <strong>Firebase Hosting</strong>
+- <strong>Any web hosting provider</strong></p>
+<hr />
+<p><strong>Deploy your PyCora site anywhere!</strong> 🚀</p>]]></description>
+            <link>http://localhost:8000/blog/deploy/</link>
+            <guid>http://localhost:8000/blog/deploy/</guid>
+            <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+            
+            <category>deployment</category>
+            
+            <category>hosting</category>
+            
+            <category>netlify</category>
+            
+            <category>vercel</category>
+            
+            <category>github-pages</category>
+            
+            
+            <author>Axcora</author>
+            
+        </item>
+        
+        <item>
+            <title>Complete SEO Guide for Static Sites</title>
+            <description><![CDATA[<h1 id="complete-seo-guide-for-static-sites">Complete SEO Guide for Static Sites</h1>
+<p>Search Engine Optimization (SEO) is crucial for getting your content discovered. PyCora comes with built-in SEO features to help your site rank better.</p>
+<h2 id="meta-tags">Meta Tags</h2>
+<p>PyCora automatically generates essential meta tags:</p>
+<pre><code class="language-html">&lt;title&gt;Your Page Title | PyCora&lt;/title&gt;
+&lt;meta name=&quot;description&quot; content=&quot;Your page description&quot;&gt;
+&lt;meta name=&quot;keywords&quot; content=&quot;seo, static, site&quot;&gt;
+</code></pre>
+<h2 id="open-graph-tags">Open Graph Tags</h2>
+<p>For better social media sharing, PyCora includes Open Graph tags:</p>
+<pre><code class="language-html">&lt;meta property=&quot;og:title&quot; content=&quot;Your Page Title&quot;&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;Your description&quot;&gt;
+&lt;meta property=&quot;og:image&quot; content=&quot;/images/og-image.jpg&quot;&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;https://yoursite.com/page&quot;&gt;
+</code></pre>
+<h2 id="twitter-cards">Twitter Cards</h2>
+<pre><code class="language-html">&lt;meta name=&quot;twitter:card&quot; content=&quot;summary_large_image&quot;&gt;
+&lt;meta name=&quot;twitter:title&quot; content=&quot;Your Title&quot;&gt;
+&lt;meta name=&quot;twitter:description&quot; content=&quot;Your description&quot;&gt;
+</code></pre>
+<h2 id="sitemap-rss">Sitemap &amp; RSS</h2>
+<p>PyCora automatically generates:
+- <code>sitemap.xml</code> - For search engine crawling
+- <code>feed.xml</code> - For RSS subscribers</p>
+<h2 id="best-practices">Best Practices</h2>
+<ol>
+<li>Use descriptive titles (50-60 characters)</li>
+<li>Write compelling meta descriptions (150-160 characters)</li>
+<li>Use proper heading structure (H1, H2, H3)</li>
+<li>Add alt text to images</li>
+<li>Use clean URLs (slug-based)</li>
+<li>Link to related content</li>
+</ol>
+<hr />
+<p><strong>Optimize your static site for search engines with PyCora!</strong> 🔍</p>]]></description>
+            <link>http://localhost:8000/blog/seo/</link>
+            <guid>http://localhost:8000/blog/seo/</guid>
+            <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+            
+            <category>seo</category>
+            
+            <category>optimization</category>
+            
+            <category>meta-tags</category>
+            
+            <category>guide</category>
+            
+            
+            <author>Axcora</author>
+            
+        </item>
+        
+        <item>
+            <title>Essential Markdown Tips for Better Blogging</title>
+            <description><![CDATA[<h1 id="essential-markdown-tips-for-better-blogging">Essential Markdown Tips for Better Blogging</h1>
+<p>Markdown is a lightweight markup language that makes writing for the web simple and intuitive. Here are some essential tips to improve your blogging workflow with PyCora.</p>
+<h2 id="headings-structure">Headings Structure</h2>
+<p>Use headings to organize your content hierarchy:</p>
+<pre><code class="language-markdown"># Main Title (H1)
+## Section (H2)
+### Subsection (H3)
+</code></pre>
+<h2 id="formatting-text">Formatting Text</h2>
+<pre><code class="language-markdown">**Bold text** - Use for emphasis
+*Italic text* - Use for subtle emphasis
+~~Strikethrough~~ - Use for deleted content
+</code></pre>
+<h2 id="lists">Lists</h2>
+<p><strong>Unordered lists:</strong></p>
+<pre><code class="language-markdown">- Item 1
+- Item 2
+  - Sub-item 2.1
+  - Sub-item 2.2
+</code></pre>
+<p><strong>Ordered lists:</strong></p>
+<pre><code class="language-markdown">1. First item
+2. Second item
+3. Third item
+</code></pre>
+<h2 id="links-and-images">Links and Images</h2>
+<pre><code class="language-markdown">[Link Text](https://example.com)
+![Image Alt Text](/images/photo.jpg)
+</code></pre>
+<h2 id="code-blocks">Code Blocks</h2>
+<pre><code class="language-python">def hello_world():
+    print(&quot;Hello, PyCora!&quot;)
+</code></pre>
+<h2 id="blockquotes">Blockquotes</h2>
+<blockquote>
+<p>"Markdown makes writing for the web accessible to everyone."</p>
+</blockquote>
+<hr />
+<p><strong>Master Markdown and create beautiful content with PyCora!</strong> 📝</p>]]></description>
+            <link>http://localhost:8000/blog/tips/</link>
+            <guid>http://localhost:8000/blog/tips/</guid>
+            <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+            
+            <category>markdown</category>
+            
+            <category>blogging</category>
+            
+            <category>tips</category>
+            
+            <category>tutorial</category>
+            
+            
+            <author>Axcora</author>
+            
+        </item>
+        
+        <item>
+            <title>Getting Started with PyCora Static Site Generator</title>
+            <description><![CDATA[<h1 id="getting-started-with-pycora">Getting Started with PyCora</h1>
+<p>PyCora is a lightweight, fast, and elegant static site generator built with Python. In this tutorial, we'll walk through the process of setting up your first PyCora site.</p>
+<h2 id="why-choose-pycora">Why Choose PyCora?</h2>
+<ul>
+<li><strong>⚡ Blazing Fast</strong> - Pure static HTML, no database queries</li>
+<li><strong>📝 Markdown Support</strong> - Write content in Markdown with YAML frontmatter</li>
+<li><strong>🎨 Beautiful Design</strong> - Clean typography with Bootstrap 5</li>
+<li><strong>🔍 SEO Ready</strong> - Built-in meta tags, Open Graph, Twitter Cards</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<pre><code class="language-bash">git clone https://github.com/mesinkasir/pycora.git
+cd pycora
+python install.py
+</code></pre>
+<h2 id="create-your-first-post">Create Your First Post</h2>
+<p>Create a new Markdown file in <code>content/posts/</code> with YAML frontmatter:</p>
+<pre><code class="language-markdown">---
+title: My First Post
+date: 2024-01-15
+tags:
+  - hello
+  - world
+---
+
+# Welcome to My Blog
+
+This is my first post using PyCora.
+</code></pre>
+<h2 id="build-your-site">Build Your Site</h2>
+<pre><code class="language-bash">python ssg.py
+</code></pre>
+<p>Your static site will be generated in the <code>output/</code> directory!</p>
+<h2 id="development-server">Development Server</h2>
+<p>For local development with auto-rebuild and live reload:</p>
+<pre><code class="language-bash">python dev.py
+</code></pre>
+<hr />
+<p><strong>Start building your static site with PyCora today!</strong> 🚀</p>]]></description>
+            <link>http://localhost:8000/blog/start/</link>
+            <guid>http://localhost:8000/blog/start/</guid>
+            <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+            
+            <category>tutorial</category>
+            
+            <category>python</category>
+            
+            <category>ssg</category>
+            
+            <category>getting-started</category>
+            
+            
+            <author>Axcora</author>
+            
+        </item>
+        
+    </channel>
+</rss>
