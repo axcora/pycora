@@ -1,0 +1,127 @@
+site:
+  name: PYCORA
+  description: Static Site Generator with Python - Fast, Minimal, Elegant
+  url: http://localhost:8000
+  author: Axcora
+  twitter_username: https://www.axcora.com
+  image: /img/axcoranewlogored.webp
+  favicon: /img/axcoranewlogored.webp
+  
+  nav:
+    title: PYCORA
+    list:
+      - name: Home
+        url: /
+      - name: About
+        url: /about
+      - name: Docs
+        url: /docs
+      - name: Blog
+        url: /blog
+      - name: Support
+        url: /donate
+    button:
+      text: Github
+      icon: fab fa-github
+      url: https://github.com/mesinkasir/pycora
+    button2:
+      text: Download
+      icon: fas fa-arrow-down
+      url: https://creativitaz.gumroad.com/l/pycora
+        
+  hero:
+    icon: fas fa-code
+    info: Static Site Generator
+    title: Write
+    sub_title: Content
+    title2: in Markdown
+    text: "Pycora Python Static Site Generator. Built with Python, fast, minimal, and elegant."
+    button1: 
+      text: Read Docs
+      url: /docs/
+    button2: 
+      text: Download
+      url: https://creativitaz.gumroad.com/l/pycora
+    terminal: 
+      title: Quick Start
+      info: "Simple. Fast. Elegant. Python SSG by Axcora Technology"
+      list: 
+        - text: "$ git clone https://github.com/mesinkasir/pycora"
+        - text: "$ python install.py"
+        - text: "$ python run.py"
+        - text: "$ 2"
+        - text: "$ Building site..."
+        - text: "$ Pycora is ready for Deploy !!"
+
+  features:
+    title: Why Choose PyCora?
+    subtitle: Everything you need to build a beautiful static site
+    list:
+      - icon: "fas fa-bolt text-primary"
+        title: "Lightning Fast"
+        text: "Pure static HTML. No database. No server-side processing. Blazing fast load times."      
+      - icon: "fas fa-feather text-success"
+        title: "Markdown + YAML"
+        text: "Write content in Markdown with powerful YAML frontmatter. Simple and intuitive."      
+      - icon: "fas fa-paint-brush text-warning"
+        title: "Beautiful Typography"
+        text: "Clean, readable, and elegant design with best typography practices for great reading experience."      
+      - icon: "fas fa-search text-info"
+        title: "SEO Optimized"
+        text: "Built-in meta tags, Open Graph, Twitter Cards, Sitemap, and RSS feed for better visibility."      
+      - icon: "fas fa-mobile-alt text-purple"
+        title: "Fully Responsive"
+        text: "Mobile-first design with Bootstrap 5. Looks great on all devices from desktop to mobile."      
+      - icon: "fas fa-code text-danger"
+        title: "Developer Friendly"
+        text: "Clean code, easy customization, and live development server with auto-rebuild and auto-refresh."      
+      - icon: "fas fa-lock text-dark"
+        title: "Secure by Default"
+        text: "No database, no vulnerabilities. Static HTML files are inherently secure and safe."      
+      - icon: "fas fa-cloud-upload-alt text-primary"
+        title: "Easy Deployment"
+        text: "Deploy anywhere. Netlify, Vercel, GitHub Pages, Cloudflare, or any static hosting."      
+      - icon: "fab fa-python text-warning"
+        title: "Python SSG"
+        text: "Pycora is a python Static Site Generator build with love by axcora technology"
+  
+  footer:
+    list:
+      - name: Github
+        icon: fab fa-github
+        url: https://github.com/mesinkasir
+      - name: Fiverr
+        icon: fab fa-drupal
+        url: https://fiverr.com/creativitas
+      - name: Axcora
+        icon: fab fa-angular
+        url: https://axcora.com
+      - name: Blog
+        icon: fab fa-react
+        url: https://axcora.my.id
+      - name: Feed
+        icon: fas fa-feed
+        url: /feed.xml
+      - name: Sitemap
+        icon: fas fa-sitemap
+        url: /sitemap.xml
+
+  donate:
+    title: Support PyCora
+    description: Help us build better tools for the open source community
+    github: https://github.com/sponsors/mesinkasir
+    paypal: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN
+    gumroad: https://creativitaz.gumroad.com/coffee
+    tiers:
+      - amount: "$5"
+        label: "Open Source Supporter"
+        desc: "Support ongoing development"
+      - amount: "$10"
+        label: "Project Supporter"
+        desc: "Help maintain Axcora tools"
+      - amount: "$25"
+        label: "Ecosystem Partner"
+        desc: "Name in project README"
+      - amount: "$55"
+        label: "Corporate Partner"
+        desc: "Logo & link in README"
