@@ -3,8 +3,8 @@
     <channel>
         <title>PYCORA</title>
         <description>Static Site Generator with Python - Fast, Minimal, Elegant</description>
-        <link>http://localhost:8000</link>
-        <atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml" />
+        <link>http://pycora.axcora.com</link>
+        <atom:link href="http://pycora.axcora.com/feed.xml" rel="self" type="application/rss+xml" />
         <language>id-ID</language>
         <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
         <generator>PyCora SSG</generator>
@@ -44,8 +44,8 @@
 <p>Your content remains accessible forever. No CMS updates, no compatibility issues.</p>
 <hr />
 <p><strong>Make the switch to static sites with PyCora!</strong> 🌟</p>]]></description>
-            <link>http://localhost:8000/blog/better/</link>
-            <guid>http://localhost:8000/blog/better/</guid>
+            <link>http://pycora.axcora.com/blog/better/</link>
+            <guid>http://pycora.axcora.com/blog/better/</guid>
             <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
             
             <category>static-site</category>
@@ -109,8 +109,8 @@ body {
 </code></pre>
 <hr />
 <p><strong>Create your unique look with PyCora!</strong> 🎨</p>]]></description>
-            <link>http://localhost:8000/blog/custom/</link>
-            <guid>http://localhost:8000/blog/custom/</guid>
+            <link>http://pycora.axcora.com/blog/custom/</link>
+            <guid>http://pycora.axcora.com/blog/custom/</guid>
             <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
             
             <category>customization</category>
@@ -168,8 +168,8 @@ git subtree push --prefix output origin gh-pages
 - <strong>Any web hosting provider</strong></p>
 <hr />
 <p><strong>Deploy your PyCora site anywhere!</strong> 🚀</p>]]></description>
-            <link>http://localhost:8000/blog/deploy/</link>
-            <guid>http://localhost:8000/blog/deploy/</guid>
+            <link>http://pycora.axcora.com/blog/deploy/</link>
+            <guid>http://pycora.axcora.com/blog/deploy/</guid>
             <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
             
             <category>deployment</category>
@@ -224,8 +224,8 @@ git subtree push --prefix output origin gh-pages
 </ol>
 <hr />
 <p><strong>Optimize your static site for search engines with PyCora!</strong> 🔍</p>]]></description>
-            <link>http://localhost:8000/blog/seo/</link>
-            <guid>http://localhost:8000/blog/seo/</guid>
+            <link>http://pycora.axcora.com/blog/seo/</link>
+            <guid>http://pycora.axcora.com/blog/seo/</guid>
             <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
             
             <category>seo</category>
@@ -282,8 +282,8 @@ git subtree push --prefix output origin gh-pages
 </blockquote>
 <hr />
 <p><strong>Master Markdown and create beautiful content with PyCora!</strong> 📝</p>]]></description>
-            <link>http://localhost:8000/blog/tips/</link>
-            <guid>http://localhost:8000/blog/tips/</guid>
+            <link>http://pycora.axcora.com/blog/tips/</link>
+            <guid>http://pycora.axcora.com/blog/tips/</guid>
             <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
             
             <category>markdown</category>
@@ -339,8 +339,8 @@ This is my first post using PyCora.
 </code></pre>
 <hr />
 <p><strong>Start building your static site with PyCora today!</strong> 🚀</p>]]></description>
-            <link>http://localhost:8000/blog/start/</link>
-            <guid>http://localhost:8000/blog/start/</guid>
+            <link>http://pycora.axcora.com/blog/start/</link>
+            <guid>http://pycora.axcora.com/blog/start/</guid>
             <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
             
             <category>tutorial</category>
