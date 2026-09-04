@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="google-site-verification" content="fJTzwsNcz2AtRxQpJZzU7db7TLPdR_lKSAXfyWDtHB4">
+	<meta name="google-site-verification" content="Xi3WpckDbMBvm1pdlc5XukNoA9uWDmnExIiOeaTOxq0">
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <title>Pycora Medusa Documentation</title>
+  <meta name="description" content="Complete documentation for Pycora Medusa - free collections, Axcora CSS, blog.md controller, prev/next, .pax support, old and new docs combined">
+  <meta name="author" content="Axcora">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://pycora.axcora.com/pages/medusa/docs/">
+  <link rel="icon" href="https://pycora.axcora.com/img/axcoranewlogored.webp" type="image/x-icon">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pycora Medusa Documentation">
+  <meta property="og:description" content="Complete documentation for Pycora Medusa - free collections, Axcora CSS, blog.md controller, prev/next, .pax support, old and new docs combined">
+  <meta property="og:url" content="https://pycora.axcora.com/pages/medusa/docs/">
+  <meta property="og:site_name" content="PYCORA MEDUSA">
+  <meta property="og:image" content="https://pycora.axcora.com/img/axcoranewlogored.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pycora Medusa Documentation">
+  <meta name="twitter:description" content="Complete documentation for Pycora Medusa - free collections, Axcora CSS, blog.md controller, prev/next, .pax support, old and new docs combined">
+  <meta name="twitter:image" content="https://pycora.axcora.com/img/axcoranewlogored.webp">
+  <meta name="twitter:site" content="@axcora">
+  <meta name="twitter:creator" content="@axcora">
+
+  <link rel="alternate" type="application/rss+xml" title="PYCORA MEDUSA" href="https://pycora.axcora.com/feed.xml">
+  <meta name="generator" content="PyCora Medusa v2.0">
+
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/axcora-css@1.0.1/axcora.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/axcora-css@1.0.1/axcora.min.css"></noscript>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6422989243541464" crossorigin="anonymous"></script>
+  <style>
+    html,body{font-size:16px}
+    .cover{max-width:100%;height:460px;object-fit:cover}
+    ul,ol {margin-left: 2.5rem !important;}
+    .centered {justify-content: center; align-items: center; display: flex;}
+    .full {width: 100%;}
+    .text-white {color: #fff !important;}
+    hr{margin-top: 8px; margin-bottom: 15px;}
+    a {text-decoration:none; color:inherit; font-weight: bold;}
+    @media(max-width:767px){.cover{height:220px}}
+    @media(min-width:768px) and (max-width:1023px){.cover{height:360px}}
+  </style>
+</head>
+<body>
+  <nav class="container mt-2">
+<div class="navbar rounded-lg p-3">
+  <a class="navbar-brand" href="https://pycora.axcora.com">MEDUSA Version</a>
+  <button class="navbar-toggler" onclick="document.querySelector('.navbar-collapse').classList.toggle('show')">☰</button>
+  <div class="navbar-collapse mt-2 mb-1">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="/medusa-version/">Home</a></li><li class="nav-item"><a class="nav-link" href="/pages/medusa/about/">About</a></li><li class="nav-item"><a class="nav-link" href="/pages/medusa/docs/">Docs</a></li><li class="nav-item"><a class="nav-link" href="/medusa-blog/">Blog</a></li><li class="nav-item"><a class="nav-link" href="/pages/medusa/donate/">Support</a></li><li class="nav-item"><a class="nav-link" href="https://creativitaz.gumroad.com/l/pycora">Download</a></li><li class="nav-item"><a class="nav-link" href="https://github.com/mesinkasir/pycora">Github</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+  <header class="container mt-3 mb-3">
+<div class="hero">
+  <div class="hero-content">
+    <h1><a href="/pages/medusa/docs/">Pycora Medusa Documentation</a></h1>
+    <p>Complete documentation for Pycora Medusa - free collections, Axcora CSS, blog.md controller, prev/next, .pax support, old and new docs combined</p>
+    
+  </div>
+</div>
+</header>
+  <main class="container mt-2 mb-2">
+    <div class="row">
+
+<div class="col-12 p-2">
+<div class="card p-1">
+
+  <img class="img-fluid shadow cover" width="100%" height="100%" alt="Pycora Medusa Documentation" src="/img/axcoranewlogored.webp" />
+
+<div class="p-5">
+
+<div class="card p-5 mt-3 mb-3">
+<h4>Table of Contents</h4>
+<div class="toc">
+<ul>
+<li><a href="#pycora-medusa-documentation">Pycora Medusa Documentation</a><ul>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#quick-start">Quick Start</a></li>
+<li><a href="#project-structure-old-vs-medusa">Project Structure - Old vs Medusa</a></li>
+<li><a href="#content-format-md-pax-new-in-medusa">Content Format - MD + PAX (NEW in Medusa)</a><ul>
+<li><a href="#1-blog-post-markdown-old-new">1. Blog Post Markdown (Old + New)</a></li>
+<li><a href="#2-pax-content-file-new-in-medusa-v210">2. PAX Content File (NEW in Medusa V2.1.0)</a></li>
+<li><a href="#3-blogmd-controller-medusa-style">3. Blog.md Controller (Medusa - style)</a></li>
+</ul>
+</li>
+<li><a href="#templating-2-styles-supported-new-in-medusa">Templating - 2 Styles Supported (NEW in Medusa)</a><ul>
+<li><a href="#style-1-frontmatter-layout-content-file-with-layout">Style 1: Frontmatter Layout (content file with layout)</a></li>
+<li><a href="#style-2-extends-default-template-file">Style 2: Extends Default (template file)</a></li>
+<li><a href="#paxloader-new">PAXLoader (NEW)</a></li>
+</ul>
+</li>
+<li><a href="#configuration-_datasiteyaml-old-new">Configuration - _data/site.yaml (Old + New)</a></li>
+<li><a href="#medusa-features-deep-dive">Medusa Features Deep Dive</a><ul>
+<li><a href="#1-free-collections-no-hardcode">1. Free Collections - No Hardcode</a></li>
+<li><a href="#2-filters-limit-slice-where-filter_tag">2. Filters - limit, slice, where, filter_tag</a></li>
+<li><a href="#3-blogmd-controller-sorting-free">3. Blog.md Controller + Sorting Free</a></li>
+<li><a href="#4-prevnext-related-posts-fixed-in-medusa">4. Prev/Next + Related Posts (Fixed in Medusa)</a></li>
+<li><a href="#5-absolute-url-fix">5. Absolute URL Fix</a></li>
+<li><a href="#6-pax-support-paxloader">6. PAX Support + PAXLoader</a></li>
+<li><a href="#7-axcora-css">7. Axcora CSS</a></li>
+<li><a href="#8-other-medusa-improvements">8. Other Medusa Improvements</a></li>
+</ul>
+</li>
+<li><a href="#customization">Customization</a><ul>
+<li><a href="#css">CSS</a></li>
+<li><a href="#templates">Templates</a></li>
+<li><a href="#static-assets">Static Assets</a></li>
+</ul>
+</li>
+<li><a href="#deployment">Deployment</a><ul>
+<li><a href="#build">Build</a></li>
+<li><a href="#github-pages">GitHub Pages</a></li>
+<li><a href="#netlify-vercel">Netlify / Vercel</a></li>
+<li><a href="#any-static-hosting">Any Static Hosting</a></li>
+</ul>
+</li>
+<li><a href="#medusa-test-files-both-templating-styles-must-work">Medusa Test Files - Both Templating Styles Must Work</a><ul>
+<li><a href="#test-1-contentmedusatestpax-frontmatter-layout-style">Test 1: content/medusa/test.pax - Frontmatter Layout Style</a></li>
+<li><a href="#test-2-templatesmedusatestpax-extends-style">Test 2: templates/medusa/test.pax - Extends Style</a></li>
+</ul>
+</li>
+<li><a href="#credits">Credits</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<h1 id="pycora-medusa-documentation">Pycora Medusa Documentation</h1>
+<p><strong>Python • Markdown • YAML • Axcora CSS •  Free Collections • Fast • Minimal • Elegant</strong></p>
+<blockquote>
+<p>Old docs: https://pycora.axcora.com/docs/ (Nyiblorong Bootstrap version)
+New docs: This page - Medusa Axcora CSS version</p>
+</blockquote>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li>Features (Old + New)</li>
+<li>Requirements</li>
+<li>Quick Start</li>
+<li>Project Structure (Old + Medusa)</li>
+<li>Content Format (MD + PAX)</li>
+<li>Templating (2 styles - extends + frontmatter layout)</li>
+<li>Configuration (_data/site.yaml)</li>
+<li>Medusa Features:  Free Collections, Axcora CSS, Blog.md Controller, Prev/Next, URL Fix, PAX</li>
+<li>Customization</li>
+<li>Deployment</li>
+</ul>
+<hr />
+<h2 id="features">Features</h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Old Nyiblorong</th>
+<th>New Medusa V2.1.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CSS Framework</td>
+<td>Bootstrap 5 ~60kb</td>
+<td>Axcora CSS ~10kb - 5x lighter</td>
+</tr>
+<tr>
+<td>Collections</td>
+<td>Hardcoded posts only</td>
+<td>Free - every folder auto collection</td>
+</tr>
+<tr>
+<td>Slicing</td>
+<td>No</td>
+<td>Yes - posts.nyiblorong[:3], limit(), slice(), where()</td>
+</tr>
+<tr>
+<td>Sort</td>
+<td>date only</td>
+<td>Free - date/title/featured/category/author</td>
+</tr>
+<tr>
+<td>Pagination</td>
+<td>Built-in</td>
+<td>Built-in + blog.md controller</td>
+</tr>
+<tr>
+<td>Tags</td>
+<td>Auto</td>
+<td>Auto + related_posts</td>
+</tr>
+<tr>
+<td>Prev/Next</td>
+<td>Yes (old) but broken in some builds</td>
+<td>Fixed - prev_post, next_post, related_posts</td>
+</tr>
+<tr>
+<td>URL</td>
+<td>Relative - 404 at /blog/page/2/</td>
+<td>Absolute fix - no 404</td>
+</tr>
+<tr>
+<td>Templates</td>
+<td>.html only</td>
+<td>.html + .pax with PAXLoader</td>
+</tr>
+<tr>
+<td>SEO</td>
+<td>Meta, OG, Twitter, Sitemap, RSS</td>
+<td>Same + TOC, reading_time, word_count</td>
+</tr>
+<tr>
+<td>Live Dev</td>
+<td>Auto-rebuild</td>
+<td>Auto-rebuild with watchdog</td>
+</tr>
+<tr>
+<td>Performance</td>
+<td>Good</td>
+<td>Lighthouse 95+</td>
+</tr>
+<tr>
+<td>Deploy</td>
+<td>Netlify, Vercel, GH Pages, Cloudflare</td>
+<td>Same</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Old features kept:</strong> Lightning Fast, Markdown+YAML, Beautiful Typography, Responsive, Secure, Easy Deployment, Zero Dependencies</p>
+<p><strong>New features added:</strong> Axcora CSS,  Free Collections, Slicing, Free sort_by, Blog.md Controller, Prev/Next Fix, Absolute URL Fix, PAX Support, Nested Frontmatter</p>
+<hr />
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li>Python 3.8+</li>
+<li>pip</li>
+<li>Git (optional)</li>
+</ul>
+<p>Dependencies (install via <code>python install.py</code>):
+- markdown
+- PyYAML
+- Jinja2
+- python-frontmatter (optional)
+- watchdog (optional for live reload)</p>
+<hr />
+<h2 id="quick-start">Quick Start</h2>
+<pre class="codehilite"><code class="language-bash"># 1. Clone
+git clone https://github.com/mesinkasir/pycora.git
+cd pycora
+
+# 2. Install deps
+python install.py
+
+# 3. Run dev server with live reload
+python dev.py
+# or
+python run.py -&gt; Choose 2
+
+# Open http://localhost:8000
+
+# 4. Build
+python ssg.py
+# Output in output/ folder
+</code></pre>
+
+<p>NPM scripts also work:</p>
+<pre class="codehilite"><code class="language-bash">npm run dev
+npm run build
+</code></pre>
+
+<hr />
+<h2 id="project-structure-old-vs-medusa">Project Structure - Old vs Medusa</h2>
+<p><strong>Old Nyiblorong (Bootstrap):</strong></p>
+<pre class="codehilite"><code>pycora/
+├── content/
+│   ├── posts/ -&gt; {{ posts }} only
+│   └── pages/
+├── templates/
+│   ├── base.html (Bootstrap)
+│   ├── landing.html
+│   └── post.html
+├── static/ (Bootstrap CSS)
+└── output/
+</code></pre>
+
+<p><strong>New Medusa V2.1.0 (Axcora CSS +  Free):</strong></p>
+<pre class="codehilite"><code>pycora/
+├── content/
+│   ├── posts/           # {{ posts }} - 11 items
+│   │   ├── medusa/      # {{ posts.medusa }} - 4 items + test.pax
+│   │   │   ├── medusa--free-collections.md
+│   │   │   ├── medusa-axcora-css.md
+│   │   │   └── test.pax -&gt; frontmatter layout: medusa/default
+│   │   └── nyiblorong/  # {{ posts.nyiblorong }} - 6 items
+│   ├── medusa/          # {{ medusa }} - 1 item (test.pax)
+│   │   └── test.pax
+│   ├── about.md
+│   ├── docs.md (this file) - layout: medusa/default
+│   ├── medusa-version.md - layout: medusa/landing
+│   ├── index.md - layout: medusa/landing
+│   └── blog.md - Controller: collection posts, pagination 6, sort_by date desc
+├── templates/
+│   ├── medusa/
+│   │   ├── default.html + .pax - Axcora CSS base with {% block content %}
+│   │   ├── landing.html + .pax - Medusa landing
+│   │   ├── blog.html + .pax - Medusa blog
+│   │   └── test.pax + test.html - {% extends &quot;default.html&quot; %} example
+│   ├── nyiblorong/
+│   │   └── blog.html - Old blog template
+│   ├── base.html, post.html, page.html, default.html
+│   └── ...
+├── _data/site.yaml - site config, nav, hero, features, footer
+├── ssg.py - Medusa builder with PAXLoader, CollectionList, prev/next, .pax support
+├── dev.py - Dev server + live reload
+└── output/
+    ├── index.html
+    ├── medusa/test/ (from content/medusa/test.pax)
+    ├── posts/medusa/...
+    ├── posts/nyiblorong/...
+    ├── blog/ + blog/page/2/
+    ├── about/, docs/, medusa-version/
+</code></pre>
+
+<hr />
+<h2 id="content-format-md-pax-new-in-medusa">Content Format - MD + PAX (NEW in Medusa)</h2>
+<h3 id="1-blog-post-markdown-old-new">1. Blog Post Markdown (Old + New)</h3>
+<p><strong>File:</strong> <code>content/posts/2024-01-01-hello-world.md</code></p>
+<pre class="codehilite"><code class="language-markdown">---
+title: Hello World
+description: Welcome
+date: 2024-01-01
+author: Axcora
+tags: [python, ssg, medusa]
+image: /images/hello.jpg
+layout: post
+featured: true
+category: tutorial
+# Nested frontmatter FREE in Medusa!
+seo:
+  image: /img/seo.jpg
+  keywords: [ssg, python]
+pricing:
+  price: 50000
+---
+
+# Welcome
+
+Content in Markdown.
+
+- Fast
+- Secure
+- Simple
+
+{% for post in posts.medusa[:3] %}  # Medusa slicing works in markdown too!
+</code></pre>
+
+<p><strong>Frontmatter fields (all free, no hardcode):</strong>
+- title, description, date, author, tags, image, layout, excerpt, slug
+- featured, category, any custom field: <code>my_custom_field: value</code>
+- Nested: <code>seo.image</code>, <code>pricing.price</code> - all accessible via <code>post.metadata.seo.image</code></p>
+<p>Medusa auto adds:
+- <code>toc</code> - Table of Contents
+- <code>word_count</code>
+- <code>reading_time</code> (minutes)
+- <code>slug</code>, <code>_rel_path</code>, <code>_file</code></p>
+<h3 id="2-pax-content-file-new-in-medusa-v210">2. PAX Content File (NEW in Medusa V2.1.0)</h3>
+<p><strong>File:</strong> <code>content/medusa/test.pax</code> - Raw HTML with frontmatter layout</p>
+<pre class="codehilite"><code class="language-markdown">---
+layout: medusa/default
+title: Medusa Test PAX
+description: Test PAX file
+---
+
+&lt;main class=&quot;container mt-2 mb-2&quot;&gt;
+&lt;header class=&quot;container mt-3&quot;&gt;
+&lt;div class=&quot;hero&quot;&gt;
+  &lt;div class=&quot;hero-content&quot;&gt;
+    &lt;h1&gt;Modern Hero Section&lt;/h1&gt;
+    &lt;p&gt;Create beautiful intro...&lt;/p&gt;
+    &lt;div class=&quot;hero-actions&quot;&gt;
+      &lt;button class=&quot;btn btn-warning&quot;&gt;Get Started&lt;/button&gt;
+      &lt;button class=&quot;btn btn-dark&quot;&gt;Learn More&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/header&gt;
+&lt;/main&gt;
+</code></pre>
+
+<ul>
+<li><code>ssg.py</code> now scans <code>content/**/*.md</code> + <code>content/**/*.pax</code></li>
+<li>For <code>.pax</code>, content is kept as <strong>raw HTML</strong>, not markdown converted</li>
+<li>So you can write pure HTML + Jinja inside!</li>
+<li>Output: <code>/medusa/test/</code> with layout <code>medusa/default</code></li>
+</ul>
+<p>This is <strong>Style 1: Frontmatter Layout</strong> - content file defines layout.</p>
+<h3 id="3-blogmd-controller-medusa-style">3. Blog.md Controller (Medusa -  style)</h3>
+<p><strong>File:</strong> <code>content/blog.md</code></p>
+<pre class="codehilite"><code class="language-yaml">---
+collection: posts
+pagination: 6
+sort_by: date        # FREE: date, title, featured, category, author, slug
+sort_order: desc     # asc / desc - robust, handles mistake sort_order: date
+filter_tag: python   # optional
+filter_by: featured  # optional
+filter_value: true   # optional
+limit: 10
+title: Blog Post
+layout: nyiblorong/blog  # or medusa/blog
+---
+
+Optional content for blog page
+</code></pre>
+
+<ul>
+<li><code>collection: posts</code> → take from <code>{{ posts }}</code> collection</li>
+<li><code>pagination: 6</code> → 6 per page → <code>/blog/</code>, <code>/blog/page/2/</code></li>
+<li><code>sort_by</code> free, no hardcode!</li>
+<li>Generates pagination URLs absolute: <code>/blog/</code>, <code>/blog/page/2/</code></li>
+</ul>
+<hr />
+<h2 id="templating-2-styles-supported-new-in-medusa">Templating - 2 Styles Supported (NEW in Medusa)</h2>
+<p>Medusa supports <strong>both</strong> templating styles - must both work!</p>
+<h3 id="style-1-frontmatter-layout-content-file-with-layout">Style 1: Frontmatter Layout (content file with layout)</h3>
+<p><strong>File:</strong> <code>content/medusa/test.pax</code> or <code>content/about.md</code></p>
+<pre class="codehilite"><code class="language-markdown">---
+layout: medusa/default
+title: My Page
+---
+
+&lt;main class=&quot;container&quot;&gt;
+&lt;h1&gt;{{ page.title }}&lt;/h1&gt;
+&lt;p&gt;{{ content|safe }}&lt;/p&gt;
+&lt;/main&gt;
+</code></pre>
+
+<ul>
+<li><code>layout: medusa/default</code> → looks for <code>templates/medusa/default.html</code> or <code>.pax</code> via PAXLoader</li>
+<li>Content is injected via <code>{{ content|safe }}</code> in layout</li>
+<li>Variables: <code>{{ page }}</code>, <code>{{ site }}</code>, <code>{{ posts }}</code>, <code>{{ collections }}</code> all available</li>
+</ul>
+<p><strong>This is what you showed:</strong></p>
+<pre class="codehilite"><code class="language-markdown">---
+layout: medusa/default
+---
+&lt;main class=&quot;container mt-2 mb-2&quot;&gt;
+&lt;header&gt;...&lt;/header&gt;
+&lt;/main&gt;
+</code></pre>
+
+<p>✅ <strong>Works in Medusa</strong> - ssg.py reads .pax content, keeps raw HTML, renders with layout medusa/default</p>
+<h3 id="style-2-extends-default-template-file">Style 2: Extends Default (template file)</h3>
+<p><strong>File:</strong> <code>templates/medusa/test.pax</code> or <code>templates/medusa/test.html</code></p>
+<pre class="codehilite"><code class="language-jinja">{% extends &quot;default.html&quot; %}
+{% block content %}
+
+&lt;section class=&quot;container mt-3&quot;&gt;
+&lt;div class=&quot;hero rounded-lg&quot; style=&quot;background: linear-gradient(135deg,#0f172a 0%,#1e293b 50%,#334155 100%); color:#fff;&quot;&gt;
+  &lt;div class=&quot;hero-content p-4&quot;&gt;
+    &lt;h1&gt;{{ site.hero.title }}&lt;/h1&gt;
+    &lt;p&gt;{{ site.hero.text }}&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+{% endblock %}
+</code></pre>
+
+<ul>
+<li><code>{% extends "default.html" %}</code> → extends <code>templates/default.html</code> or <code>templates/medusa/default.html</code> via PAXLoader search</li>
+<li><code>{% block content %}</code> → content block</li>
+<li>This is <strong>pure template</strong>, not content file - placed in <code>templates/</code> folder</li>
+<li>Used as layout: <code>layout: medusa/test</code> in content file</li>
+</ul>
+<p>✅ <strong>Works in Medusa</strong> - PAXLoader searches recursively, supports .html and .pax fallback</p>
+<h3 id="paxloader-new">PAXLoader (NEW)</h3>
+<p>Custom Jinja loader in ssg.py:</p>
+<ul>
+<li>Tries <code>template.html</code> first</li>
+<li>If not found, tries <code>template.pax</code></li>
+<li>If <code>template.pax</code> requested, tries <code>template.html</code></li>
+<li>If no extension, tries <code>.pax</code> and <code>.html</code></li>
+<li>Tries <code>layouts/</code> prefix</li>
+<li>Searches subfolders recursively: <code>medusa/default</code> → finds <code>templates/medusa/default.html</code></li>
+<li>So <code>layout: medusa/default</code> works even if you write <code>medusa/default.html</code> or <code>medusa/default.pax</code>!</li>
+</ul>
+<hr />
+<h2 id="configuration-_datasiteyaml-old-new">Configuration - _data/site.yaml (Old + New)</h2>
+<p><strong>File:</strong> <code>_data/site.yaml</code> - Site config, nav, hero, features, footer</p>
+<pre class="codehilite"><code class="language-yaml">name: PYCORA
+description: Static Site Generator...
+url: http://localhost:8000
+author: Axcora
+image: /img/axcoranewlogored.webp
+favicon: /img/axcoranewlogored.webp
+nav:
+  title: PYCORA
+  list:
+    - name: Home
+      url: /
+    - name: About
+      url: /about
+    - name: Docs
+      url: /docs
+    - name: Blog
+      url: /blog
+hero:
+  icon: fas fa-code
+  info: Static Site Generator
+  title: Write
+  sub_title: Content
+  title2: in Markdown
+  text: Pycora Python SSG...
+  button1:
+    text: Read Docs
+    url: /docs/
+  button2:
+    text: Download
+    url: https://...
+  terminal:
+    title: Quick Start
+    list:
+      - text: $ git clone...
+features:
+  title: Why Choose PyCora?
+  list:
+    - icon: fas fa-bolt
+      title: Lightning Fast
+      text: Pure static HTML...
+footer:
+  list:
+    - name: Github
+      url: https://...
+</code></pre>
+
+<p>All accessible in templates: <code>{{ site.name }}</code>, <code>{{ site.nav.list }}</code>, <code>{{ site.hero.title }}</code>, etc.</p>
+<p>Medusa adds no hardcode for collections - all folders auto become <code>{{ site.collections }}</code> plus direct vars.</p>
+<hr />
+<h2 id="medusa-features-deep-dive">Medusa Features Deep Dive</h2>
+<h3 id="1-free-collections-no-hardcode">1.  Free Collections - No Hardcode</h3>
+<p>Old Nyiblorong: hardcoded <code>posts</code> only.</p>
+<p>Medusa: <code>scan_content()</code> scans <code>content/</code> recursively:</p>
+<ul>
+<li><code>content/posts/</code> → <code>collections['posts']</code> → <code>{{ posts }}</code></li>
+<li><code>content/posts/medusa/</code> → <code>collections['posts/medusa']</code> → <code>{{ posts.medusa }}</code> + <code>collections['posts']._subs['medusa']</code></li>
+<li><code>content/projects/</code> → <code>{{ projects }}</code></li>
+</ul>
+<p><strong>CollectionList class</strong> supports:
+- <code>posts[0]</code> - first post
+- <code>posts[:3]</code> - slicing 3 latest
+- <code>posts.medusa</code> - sub-collection via <code>__getattr__</code>
+- <code>posts['medusa']</code> - via <code>__getitem__</code></p>
+<h3 id="2-filters-limit-slice-where-filter_tag">2. Filters - limit, slice, where, filter_tag</h3>
+<p>In <code>ssg.py</code> env.filters:</p>
+<pre class="codehilite"><code class="language-jinja">{% for post in posts.medusa[:3] %}  # Python slicing
+
+{% for post in posts.medusa | limit(3) %}  # limit filter
+{% for post in posts.medusa | slice(3) %}  # slice filter
+
+{% for post in posts | where(&quot;featured&quot;, true) %}  # where filter
+{% for post in posts | where(&quot;category&quot;, &quot;premium&quot;) %}
+
+{% for post in posts | filter_tag(&quot;python&quot;) %}  # filter_tag
+
+{% for post in posts | filter_by(&quot;author&quot;, &quot;Axcora&quot;) %}
+</code></pre>
+
+<h3 id="3-blogmd-controller-sorting-free">3. Blog.md Controller + Sorting Free</h3>
+<p><code>content/blog.md</code> controller:</p>
+<ul>
+<li><code>collection: posts</code> - which collection to paginate</li>
+<li><code>pagination: 6</code> - per page</li>
+<li><code>sort_by: date</code> - FREE: date, title, author, category, featured, slug, any field!</li>
+<li><code>sort_order: desc</code> - asc/desc, robust handling if you write <code>sort_order: date</code> (mistake) → auto fixes to date desc</li>
+<li><code>limit: 10</code> - max items</li>
+<li><code>filter_tag: python</code> - filter by tag</li>
+<li><code>filter_by</code> + <code>filter_value</code> - filter by field</li>
+<li><code>layout: nyiblorong/blog</code> or <code>medusa/blog</code></li>
+</ul>
+<p>Generates: <code>/blog/</code>, <code>/blog/page/2/</code>, etc with <code>pagination</code> object: <code>pagination.total_items</code>, <code>pagination.current_page</code>, <code>pagination.total_pages</code>, <code>pagination.prev_url</code>, <code>pagination.next_url</code></p>
+<h3 id="4-prevnext-related-posts-fixed-in-medusa">4. Prev/Next + Related Posts (Fixed in Medusa)</h3>
+<p>In <code>generate_all_items()</code>, sort all items by date desc, then for each post find prev/next + related by tags.</p>
+<p>In <code>post.html</code>:</p>
+<pre class="codehilite"><code class="language-jinja">&lt;div class=&quot;post-nav&quot;&gt;
+  {% if prev_post %}
+  &lt;a href=&quot;/blog/{{ prev_post.slug }}&quot;&gt;Previous: {{ prev_post.metadata.title }}&lt;/a&gt;
+  {% endif %}
+  {% if next_post %}
+  &lt;a href=&quot;/blog/{{ next_post.slug }}&quot;&gt;Next: {{ next_post.title }}&lt;/a&gt;
+  {% endif %}
+&lt;/div&gt;
+
+{% if related_posts %}
+  {% for related in related_posts[:3] %}
+    &lt;a href=&quot;/{{ related.slug }}/&quot;&gt;{{ related.title }}&lt;/a&gt;
+  {% endfor %}
+{% endif %}
+</code></pre>
+
+<h3 id="5-absolute-url-fix">5. Absolute URL Fix</h3>
+<p>Old bug: <code>href="{{ post.slug }}"</code> relative → at <code>/blog/page/2/</code> becomes <code>/blog/page/2/posts/nyiblorong/better</code> → 404!</p>
+<p>Fix: Always absolute: <code>href="/{{ post.slug }}/"</code> or <code>href="/blog/{{ post.slug }}/"</code></p>
+<p>Medusa generates all variants for backward compat:
+- <code>/posts/nyiblorong/post-1/</code> (new )
+- <code>/blog/post-1/</code> (old github)
+- <code>/blog/nyiblorong/post-1/</code>
+- <code>/blog/posts/nyiblorong/post-1/</code> (for old relative templates)</p>
+<p>Now no 404!</p>
+<h3 id="6-pax-support-paxloader">6. PAX Support + PAXLoader</h3>
+<ul>
+<li>Templates can be <code>.html</code> or <code>.pax</code></li>
+<li>PAXLoader tries fallback: <code>.html</code> → <code>.pax</code>, <code>.pax</code> → <code>.html</code>, no ext → both, searches subfolders</li>
+<li>Content files can be <code>.md</code> or <code>.pax</code> (new in Medusa)</li>
+<li>For <code>.pax</code> content, raw HTML kept, not markdown converted</li>
+</ul>
+<h3 id="7-axcora-css">7. Axcora CSS</h3>
+<p>Replace Bootstrap 5 ~60kb with Axcora CSS ~10kb:</p>
+<pre class="codehilite"><code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/axcora-css@1.0.1/axcora.min.css&quot;&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/npm/axcora-js@1.0.1/axcora.min.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+
+<p>Classes: <code>.container</code>, <code>.navbar</code>, <code>.hero</code>, <code>.card</code>, <code>.row</code>, <code>.col-lg-4</code>, <code>.btn</code>, <code>.badge</code>, <code>.rounded-lg</code>, <code>.shadow</code>, <code>.p-3</code>, <code>.mt-3</code> - same familiar but lightweight.</p>
+<h3 id="8-other-medusa-improvements">8. Other Medusa Improvements</h3>
+<ul>
+<li>Nested frontmatter: <code>seo.image</code>, <code>pricing.price</code> - free, accessible via <code>post.metadata.seo.image</code></li>
+<li>TOC: <code>{{ toc|safe }}</code> auto generated</li>
+<li>word_count, reading_time</li>
+<li><code>site</code> globals from <code>_data/site.yaml</code> + <code>site</code> collection</li>
+<li>No hardcode port - reads from <code>site.url</code> <code>http://localhost:8000</code> → port 8000</li>
+</ul>
+<hr />
+<h2 id="customization">Customization</h2>
+<h3 id="css">CSS</h3>
+<p>Place custom CSS in <code>static/css/main.css</code> or override via <code>&lt;style&gt;</code> in template.</p>
+<p>Medusa uses Axcora CSS CDN, but you can add your own:</p>
+<pre class="codehilite"><code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/custom.css&quot;&gt;
+</code></pre>
+
+<h3 id="templates">Templates</h3>
+<p>Edit in <code>templates/</code>:</p>
+<ul>
+<li><code>base.html</code> - Base layout with navbar, footer, SEO meta</li>
+<li><code>default.html</code> - Default base</li>
+<li><code>medusa/default.html</code> - Medusa Axcora CSS base with <code>{% block content %}</code></li>
+<li><code>medusa/landing.html</code> - Homepage with hero, features, latest posts</li>
+<li><code>medusa/blog.html</code> - Blog listing</li>
+<li><code>post.html</code> - Single post with prev/next/related</li>
+<li><code>page.html</code> - Static page</li>
+</ul>
+<h3 id="static-assets">Static Assets</h3>
+<p>Add images to <code>static/</code> or <code>public/</code> - copied to <code>output/</code> via <code>copy_static()</code>.</p>
+<hr />
+<h2 id="deployment">Deployment</h2>
+<h3 id="build">Build</h3>
+<pre class="codehilite"><code class="language-bash">python ssg.py
+# Output in output/ folder - 50+ files for Medusa with all posts
+</code></pre>
+
+<h3 id="github-pages">GitHub Pages</h3>
+<pre class="codehilite"><code class="language-bash">git subtree push --prefix output origin gh-pages
+</code></pre>
+
+<h3 id="netlify-vercel">Netlify / Vercel</h3>
+<ul>
+<li>Build command: <code>python ssg.py</code></li>
+<li>Publish directory: <code>output</code></li>
+<li>Or drag and drop <code>output/</code> folder</li>
+</ul>
+<h3 id="any-static-hosting">Any Static Hosting</h3>
+<p>Upload <code>output/</code> to:
+- Netlify, Vercel, GitHub Pages, Cloudflare Pages, AWS S3, Firebase, Cpanel</p>
+<hr />
+<h2 id="medusa-test-files-both-templating-styles-must-work">Medusa Test Files - Both Templating Styles Must Work</h2>
+<h3 id="test-1-contentmedusatestpax-frontmatter-layout-style">Test 1: content/medusa/test.pax - Frontmatter Layout Style</h3>
+<p><strong>File:</strong> <code>content/medusa/test.pax</code></p>
+<pre class="codehilite"><code class="language-yaml">---
+layout: medusa/default
+title: Test PAX
+---
+&lt;main class=&quot;container&quot;&gt;...&lt;/main&gt;
+</code></pre>
+
+<p>Output: <code>/medusa/test/</code> - uses <code>templates/medusa/default.html</code> layout, raw HTML kept.</p>
+<h3 id="test-2-templatesmedusatestpax-extends-style">Test 2: templates/medusa/test.pax - Extends Style</h3>
+<p><strong>File:</strong> <code>templates/medusa/test.pax</code></p>
+<pre class="codehilite"><code class="language-jinja">{% extends &quot;default.html&quot; %}
+{% block content %}
+&lt;section&gt;...&lt;/section&gt;
+{% endblock %}
+</code></pre>
+
+<p>Output: Can be used as layout: <code>layout: medusa/test</code> in content file.</p>
+<p>Both must work - Medusa PAXLoader + scan_content .pax support ensures it!</p>
+<hr />
+<h2 id="credits">Credits</h2>
+<ul>
+<li>Python, Markdown, Jinja2, PyYAML, Watchdog</li>
+<li>Axcora CSS - https://cdn.jsdelivr.net/npm/axcora-css@1.0.1/axcora.min.css</li>
+<li>Bootstrap 5 (old Nyiblorong)</li>
+<li>Axcora Technology - https://axcora.com</li>
+<li>GitHub: mesinkasir/pycora</li>
+<li>Docs: https://pycora.axcora.com/docs/ (old) + this page (new Medusa)</li>
+</ul>
+<hr />
+<p><strong>Pycora Medusa V2.1.0 -  Free Collections + Axcora CSS - Build 0.4s, 50 files, deploy anywhere!</strong></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+  </main>
+  <footer class="container mt-2 mb-2">
+<div class="card p-3">
+<div class="row">
+<div class="col-lg-2 col-md-4 col-12 p-3 p-md-1 centered">
+<img class="img-fluid" loading="lazy" width="120" height="120"
+src="/img/axcoranewlogored.webp">
+</div>
+<div class="col-lg-6 col-md-8 col-12 p-5 p-md-1">
+<h3>PYCORA MEDUSA</h3>
+<p>Pycora Medusa V2.3.0 is a lightweight Python Static Site Generator built with 11ty free collections concept and no hardcode. Built on Axcora CSS 10kb, it offers automatic TOC, prev/next navigation, related posts by tags, dynamic pagination with pagination.first_url, RSS, JSON, Atom feeds, sitemap, and SEO-ready output. Every folder in content automatically becomes its own collection without config. Part of Axcora Ecosystem, open source, MIT licensed, fast and minimal for modern JAMstack websites.</p>
+</div>
+<div class="col-lg-2 col-md-6 col-6 p-5 p-md-1">
+<p>Menu</p>
+<ul class="ms-3">
+
+<li><a href="/docs/">Home</a></li>
+
+<li><a href="/pages/medusa/about/">About</a></li>
+
+<li><a href="/pages/medusa/docs/">Docs</a></li>
+
+<li><a href="/medusa-blog/">Blog</a></li>
+
+<li><a href="/pages/medusa/donate/">Support</a></li>
+
+<li><a href="/nyi-blorong-version/">Nyi Blorong</a></li>
+
+<li><a href="/">Main Site</a></li>
+
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-6 p-5">
+<p>Support</p>
+<ul class="ms-3">
+
+<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN">Paypal</a></li>
+
+<li><a href="https://creativitaz.gumroad.com/coffee">Coffee</a></li>
+
+<li><a href="https://github.com/sponsors/mesinkasir">Sponsor</a></li>
+
+<li><a href="https://github.com/mesinkasir">Github</a></li>
+
+<li><a href="https://fiverr.com/creativitas">Fiverr</a></li>
+
+<li><a href="https://axcora.com">Axcora</a></li>
+
+<li><a href="https://axcora.my.id">Labs</a></li>
+
+</ul>
+</div>
+<div class="col-12 text-center">
+<p>
+<span class="text-muted me-2"><a href="/atom.xml"><small>Atom</small></a></span>
+
+<span class="text-muted me-2"><a href="/feed.json"><small>JSON</small></a></span>
+
+<span class="text-muted me-2"><a href="/feed.xml"><small>Feed</small></a></span>
+
+<span class="text-muted me-2"><a href=""><small>Sitemap</small></a></span>
+</p>
+</div>
+</div>
+</div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/axcora-js@1.0.1/axcora.min.js"></script>
+</body>
+</html>
