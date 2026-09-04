@@ -10,7 +10,7 @@
       "url": "https://pycora.axcora.com/pages/medusa/about/",
       "title": "About Pycora Medusa",
       "summary": "About Pycora Python SSG - Medusa Version with Axcora CSS lightweight framework",
-      "date_published": "2026-09-04T06:42:20.083347",
+      "date_published": "2026-09-04T14:31:18.884423",
       "tags": []
     },
     {
@@ -18,7 +18,7 @@
       "url": "https://pycora.axcora.com/pages/medusa/docs/",
       "title": "Pycora Medusa Documentation",
       "summary": "Complete documentation for Pycora Medusa - free collections, Axcora CSS, blog.md controller, prev/next, .pax support, old and new docs combined",
-      "date_published": "2026-09-04T06:42:20.083351",
+      "date_published": "2026-09-04T14:31:18.884428",
       "tags": []
     },
     {
@@ -112,7 +112,7 @@
       "url": "https://pycora.axcora.com/posts/medusa/pax-templating/",
       "title": "Medusa .PAX Template Support - Cleaner Templating",
       "summary": "Medusa introduces .pax template support - have both .html and .pax, PAXLoader auto fallback, cleaner separation",
-      "date_published": "2026-09-04T06:42:20.083365",
+      "date_published": "2026-09-04T14:31:18.884447",
       "tags": [
         "pycora",
         "medusa",
@@ -126,7 +126,7 @@
       "url": "https://pycora.axcora.com/posts/medusa/prev-next/",
       "title": "Medusa Fixes Prev Next Post and Absolute URL 404",
       "summary": "Fixing two critical bugs prev next post missing and relative URL",
-      "date_published": "2026-09-04T06:42:20.083367",
+      "date_published": "2026-09-04T14:31:18.884449",
       "tags": [
         "pycora",
         "medusa",
@@ -140,7 +140,7 @@
       "url": "https://pycora.axcora.com/posts/medusa/axcora-css/",
       "title": "Why Medusa Uses Axcora CSS - 5x Lighter Than Bootstrap",
       "summary": "Medusa switches from Bootstrap 5 60kb to Axcora CSS 10kb - 5x lighter, Lighthouse 95+, same familiar classes",
-      "date_published": "2026-09-04T06:42:20.083369",
+      "date_published": "2026-09-04T14:31:18.884451",
       "tags": [
         "pycora",
         "medusa",
@@ -154,7 +154,7 @@
       "url": "https://pycora.axcora.com/posts/medusa/collections/",
       "title": "Medusa  Free Collections - No Hardcode Explained",
       "summary": "How Medusa implements  style free collections - every folder auto becomes collection, no hardcode, slicing [:3], limit(), where() filters",
-      "date_published": "2026-09-04T06:42:20.083371",
+      "date_published": "2026-09-04T14:31:18.884454",
       "tags": [
         "pycora",
         "medusa",
@@ -167,7 +167,7 @@
       "url": "https://pycora.axcora.com/posts/nyiblorong/nyiblorong-vs-medusa/",
       "title": "Nyiblorong vs Medusa - Comparison Guide",
       "summary": "Compare Nyiblorong Bootstrap vs Medusa Axcora CSS - which to choose for your Python SSG project",
-      "date_published": "2026-09-04T06:42:20.083373",
+      "date_published": "2026-09-04T14:31:18.884456",
       "tags": [
         "pycora",
         "nyiblorong",
@@ -181,7 +181,7 @@
       "url": "https://pycora.axcora.com/posts/nyiblorong/why-nyi-blorong-ssg-pyrcora-python/",
       "title": "Nyiblorong Python SSG - Bootstrap 5 Classic Version",
       "summary": "Nyiblorong version is classic Pycora with Bootstrap 5 - stable, familiar, good for starter but heavy",
-      "date_published": "2026-09-04T06:42:20.083375",
+      "date_published": "2026-09-04T14:31:18.884458",
       "tags": [
         "pycora",
         "nyiblorong",
@@ -195,7 +195,7 @@
       "url": "https://pycora.axcora.com/posts/better/",
       "title": "Why Static Sites Are Better for Your Blog",
       "summary": "Discover the benefits of using static site generators like PyCora for blogging",
-      "date_published": "2026-09-04T06:42:20.083377",
+      "date_published": "2026-09-04T14:31:18.884465",
       "tags": [
         "static-site",
         "blogging",
@@ -208,7 +208,7 @@
       "url": "https://pycora.axcora.com/posts/custom/",
       "title": "How to Customize Your PyCora Theme",
       "summary": "Learn how to customize the look and feel of your PyCora static site",
-      "date_published": "2026-09-04T06:42:20.083378",
+      "date_published": "2026-09-04T14:31:18.884467",
       "tags": [
         "customization",
         "theming",
@@ -221,7 +221,7 @@
       "url": "https://pycora.axcora.com/posts/deploy/",
       "title": "Deploy Your Static Site Anywhere",
       "summary": "Learn how to deploy your PyCora static site to various hosting platforms",
-      "date_published": "2026-09-04T06:42:20.083380",
+      "date_published": "2026-09-04T14:31:18.884470",
       "tags": [
         "deployment",
         "hosting",
@@ -235,7 +235,7 @@
       "url": "https://pycora.axcora.com/posts/seo/",
       "title": "Complete SEO Guide for Static Sites",
       "summary": "Optimize your static site for search engines using PyCora's built-in SEO features",
-      "date_published": "2026-09-04T06:42:20.083382",
+      "date_published": "2026-09-04T14:31:18.884472",
       "tags": [
         "seo",
         "optimization",
@@ -248,7 +248,7 @@
       "url": "https://pycora.axcora.com/posts/tips/",
       "title": "Essential Markdown Tips for Better Blogging",
       "summary": "Learn how to write better blog posts using Markdown with PyCora",
-      "date_published": "2026-09-04T06:42:20.083384",
+      "date_published": "2026-09-04T14:31:18.884474",
       "tags": [
         "markdown",
         "blogging",

@@ -5,20 +5,20 @@
   <link href="https://pycora.axcora.com/atom.xml" rel="self" />
   <link href="https://pycora.axcora.com/" />
   <id>https://pycora.axcora.com/</id>
-  <updated>2026-09-04T06:42:20.083220</updated>
+  <updated>2026-09-04T14:31:18.884250</updated>
   
   <entry>
     <title>About Pycora Medusa</title>
     <link href="https://pycora.axcora.com/pages/medusa/about/" />
     <id>https://pycora.axcora.com/pages/medusa/about/</id>
-    <updated>2026-09-04T06:42:20.083167</updated>
+    <updated>2026-09-04T14:31:18.884182</updated>
     <summary><![CDATA[About Pycora Python SSG - Medusa Version with Axcora CSS lightweight framework]]></summary>
   </entry>
   <entry>
     <title>Pycora Medusa Documentation</title>
     <link href="https://pycora.axcora.com/pages/medusa/docs/" />
     <id>https://pycora.axcora.com/pages/medusa/docs/</id>
-    <updated>2026-09-04T06:42:20.083174</updated>
+    <updated>2026-09-04T14:31:18.884191</updated>
     <summary><![CDATA[Complete documentation for Pycora Medusa - free collections, Axcora CSS, blog.md controller, prev/next, .pax support, old and new docs combined]]></summary>
   </entry>
   <entry>
@@ -74,77 +74,77 @@
     <title>Medusa .PAX Template Support - Cleaner Templating</title>
     <link href="https://pycora.axcora.com/posts/medusa/pax-templating/" />
     <id>https://pycora.axcora.com/posts/medusa/pax-templating/</id>
-    <updated>2026-09-04T06:42:20.083197</updated>
+    <updated>2026-09-04T14:31:18.884221</updated>
     <summary><![CDATA[Medusa introduces .pax template support - have both .html and .pax, PAXLoader auto fallback, cleaner separation]]></summary>
   </entry>
   <entry>
     <title>Medusa Fixes Prev Next Post and Absolute URL 404</title>
     <link href="https://pycora.axcora.com/posts/medusa/prev-next/" />
     <id>https://pycora.axcora.com/posts/medusa/prev-next/</id>
-    <updated>2026-09-04T06:42:20.083200</updated>
+    <updated>2026-09-04T14:31:18.884224</updated>
     <summary><![CDATA[Fixing two critical bugs prev next post missing and relative URL]]></summary>
   </entry>
   <entry>
     <title>Why Medusa Uses Axcora CSS - 5x Lighter Than Bootstrap</title>
     <link href="https://pycora.axcora.com/posts/medusa/axcora-css/" />
     <id>https://pycora.axcora.com/posts/medusa/axcora-css/</id>
-    <updated>2026-09-04T06:42:20.083202</updated>
+    <updated>2026-09-04T14:31:18.884227</updated>
     <summary><![CDATA[Medusa switches from Bootstrap 5 60kb to Axcora CSS 10kb - 5x lighter, Lighthouse 95+, same familiar classes]]></summary>
   </entry>
   <entry>
     <title>Medusa  Free Collections - No Hardcode Explained</title>
     <link href="https://pycora.axcora.com/posts/medusa/collections/" />
     <id>https://pycora.axcora.com/posts/medusa/collections/</id>
-    <updated>2026-09-04T06:42:20.083204</updated>
+    <updated>2026-09-04T14:31:18.884229</updated>
     <summary><![CDATA[How Medusa implements  style free collections - every folder auto becomes collection, no hardcode, slicing [:3], limit(), where() filters]]></summary>
   </entry>
   <entry>
     <title>Nyiblorong vs Medusa - Comparison Guide</title>
     <link href="https://pycora.axcora.com/posts/nyiblorong/nyiblorong-vs-medusa/" />
     <id>https://pycora.axcora.com/posts/nyiblorong/nyiblorong-vs-medusa/</id>
-    <updated>2026-09-04T06:42:20.083206</updated>
+    <updated>2026-09-04T14:31:18.884232</updated>
     <summary><![CDATA[Compare Nyiblorong Bootstrap vs Medusa Axcora CSS - which to choose for your Python SSG project]]></summary>
   </entry>
   <entry>
     <title>Nyiblorong Python SSG - Bootstrap 5 Classic Version</title>
     <link href="https://pycora.axcora.com/posts/nyiblorong/why-nyi-blorong-ssg-pyrcora-python/" />
     <id>https://pycora.axcora.com/posts/nyiblorong/why-nyi-blorong-ssg-pyrcora-python/</id>
-    <updated>2026-09-04T06:42:20.083208</updated>
+    <updated>2026-09-04T14:31:18.884235</updated>
     <summary><![CDATA[Nyiblorong version is classic Pycora with Bootstrap 5 - stable, familiar, good for starter but heavy]]></summary>
   </entry>
   <entry>
     <title>Why Static Sites Are Better for Your Blog</title>
     <link href="https://pycora.axcora.com/posts/better/" />
     <id>https://pycora.axcora.com/posts/better/</id>
-    <updated>2026-09-04T06:42:20.083210</updated>
+    <updated>2026-09-04T14:31:18.884238</updated>
     <summary><![CDATA[Discover the benefits of using static site generators like PyCora for blogging]]></summary>
   </entry>
   <entry>
     <title>How to Customize Your PyCora Theme</title>
     <link href="https://pycora.axcora.com/posts/custom/" />
     <id>https://pycora.axcora.com/posts/custom/</id>
-    <updated>2026-09-04T06:42:20.083212</updated>
+    <updated>2026-09-04T14:31:18.884241</updated>
     <summary><![CDATA[Learn how to customize the look and feel of your PyCora static site]]></summary>
   </entry>
   <entry>
     <title>Deploy Your Static Site Anywhere</title>
     <link href="https://pycora.axcora.com/posts/deploy/" />
     <id>https://pycora.axcora.com/posts/deploy/</id>
-    <updated>2026-09-04T06:42:20.083214</updated>
+    <updated>2026-09-04T14:31:18.884243</updated>
     <summary><![CDATA[Learn how to deploy your PyCora static site to various hosting platforms]]></summary>
   </entry>
   <entry>
     <title>Complete SEO Guide for Static Sites</title>
     <link href="https://pycora.axcora.com/posts/seo/" />
     <id>https://pycora.axcora.com/posts/seo/</id>
-    <updated>2026-09-04T06:42:20.083217</updated>
+    <updated>2026-09-04T14:31:18.884246</updated>
     <summary><![CDATA[Optimize your static site for search engines using PyCora's built-in SEO features]]></summary>
   </entry>
   <entry>
     <title>Essential Markdown Tips for Better Blogging</title>
     <link href="https://pycora.axcora.com/posts/tips/" />
     <id>https://pycora.axcora.com/posts/tips/</id>
-    <updated>2026-09-04T06:42:20.083219</updated>
+    <updated>2026-09-04T14:31:18.884249</updated>
     <summary><![CDATA[Learn how to write better blog posts using Markdown with PyCora]]></summary>
   </entry>
 </feed>

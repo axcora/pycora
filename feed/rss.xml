@@ -5,7 +5,7 @@
   <description>Static Site Generator with Python - Fast, Minimal, Elegant</description>
   <link>https://pycora.axcora.com/</link>
   <atom:link href="https://pycora.axcora.com/feed.xml" rel="self" type="application/rss+xml" />
-  <lastBuildDate>Fri, 04 Sep 2026 06:42:20 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 04 Sep 2026 14:31:18 GMT</lastBuildDate>
   <generator>pycora medusa v2.4.6</generator>
   
   <item>
@@ -13,14 +13,14 @@
     <link>https://pycora.axcora.com/pages/medusa/about/</link>
     <guid>https://pycora.axcora.com/pages/medusa/about/</guid>
     <description><![CDATA[About Pycora Python SSG - Medusa Version with Axcora CSS lightweight framework]]></description>
-    <pubDate>Fri, 04 Sep 2026 06:42:20 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 14:31:18 GMT</pubDate>
   </item>
   <item>
     <title>Pycora Medusa Documentation</title>
     <link>https://pycora.axcora.com/pages/medusa/docs/</link>
     <guid>https://pycora.axcora.com/pages/medusa/docs/</guid>
     <description><![CDATA[Complete documentation for Pycora Medusa - free collections, Axcora CSS, blog.md controller, prev/next, .pax support, old and new docs combined]]></description>
-    <pubDate>Fri, 04 Sep 2026 06:42:20 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 14:31:18 GMT</pubDate>
   </item>
   <item>
     <title>Python vs JavaScript for Startups 2026</title>
@@ -76,77 +76,77 @@
     <link>https://pycora.axcora.com/posts/medusa/pax-templating/</link>
     <guid>https://pycora.axcora.com/posts/medusa/pax-templating/</guid>
     <description><![CDATA[Medusa introduces .pax template support - have both .html and .pax, PAXLoader auto fallback, cleaner separation]]></description>
-    <pubDate>Fri, 04 Sep 2026 06:42:20 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 14:31:18 GMT</pubDate>
   </item>
   <item>
     <title>Medusa Fixes Prev Next Post and Absolute URL 404</title>
     <link>https://pycora.axcora.com/posts/medusa/prev-next/</link>
     <guid>https://pycora.axcora.com/posts/medusa/prev-next/</guid>
     <description><![CDATA[Fixing two critical bugs prev next post missing and relative URL]]></description>
-    <pubDate>Fri, 04 Sep 2026 06:42:20 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 14:31:18 GMT</pubDate>
   </item>
   <item>
     <title>Why Medusa Uses Axcora CSS - 5x Lighter Than Bootstrap</title>
     <link>https://pycora.axcora.com/posts/medusa/axcora-css/</link>
     <guid>https://pycora.axcora.com/posts/medusa/axcora-css/</guid>
     <description><![CDATA[Medusa switches from Bootstrap 5 60kb to Axcora CSS 10kb - 5x lighter, Lighthouse 95+, same familiar classes]]></description>
-    <pubDate>Fri, 04 Sep 2026 06:42:20 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 14:31:18 GMT</pubDate>
   </item>
   <item>
     <title>Medusa  Free Collections - No Hardcode Explained</title>
     <link>https://pycora.axcora.com/posts/medusa/collections/</link>
     <guid>https://pycora.axcora.com/posts/medusa/collections/</guid>
     <description><![CDATA[How Medusa implements  style free collections - every folder auto becomes collection, no hardcode, slicing [:3], limit(), where() filters]]></description>
-    <pubDate>Fri, 04 Sep 2026 06:42:20 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 14:31:18 GMT</pubDate>
   </item>
   <item>
     <title>Nyiblorong vs Medusa - Comparison Guide</title>
     <link>https://pycora.axcora.com/posts/nyiblorong/nyiblorong-vs-medusa/</link>
     <guid>https://pycora.axcora.com/posts/nyiblorong/nyiblorong-vs-medusa/</guid>
     <description><![CDATA[Compare Nyiblorong Bootstrap vs Medusa Axcora CSS - which to choose for your Python SSG project]]></description>
-    <pubDate>Fri, 04 Sep 2026 06:42:20 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 14:31:18 GMT</pubDate>
   </item>
   <item>
     <title>Nyiblorong Python SSG - Bootstrap 5 Classic Version</title>
     <link>https://pycora.axcora.com/posts/nyiblorong/why-nyi-blorong-ssg-pyrcora-python/</link>
     <guid>https://pycora.axcora.com/posts/nyiblorong/why-nyi-blorong-ssg-pyrcora-python/</guid>
     <description><![CDATA[Nyiblorong version is classic Pycora with Bootstrap 5 - stable, familiar, good for starter but heavy]]></description>
-    <pubDate>Fri, 04 Sep 2026 06:42:20 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 14:31:18 GMT</pubDate>
   </item>
   <item>
     <title>Why Static Sites Are Better for Your Blog</title>
     <link>https://pycora.axcora.com/posts/better/</link>
     <guid>https://pycora.axcora.com/posts/better/</guid>
     <description><![CDATA[Discover the benefits of using static site generators like PyCora for blogging]]></description>
-    <pubDate>Fri, 04 Sep 2026 06:42:20 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 14:31:18 GMT</pubDate>
   </item>
   <item>
     <title>How to Customize Your PyCora Theme</title>
     <link>https://pycora.axcora.com/posts/custom/</link>
     <guid>https://pycora.axcora.com/posts/custom/</guid>
     <description><![CDATA[Learn how to customize the look and feel of your PyCora static site]]></description>
-    <pubDate>Fri, 04 Sep 2026 06:42:20 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 14:31:18 GMT</pubDate>
   </item>
   <item>
     <title>Deploy Your Static Site Anywhere</title>
     <link>https://pycora.axcora.com/posts/deploy/</link>
     <guid>https://pycora.axcora.com/posts/deploy/</guid>
     <description><![CDATA[Learn how to deploy your PyCora static site to various hosting platforms]]></description>
-    <pubDate>Fri, 04 Sep 2026 06:42:20 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 14:31:18 GMT</pubDate>
   </item>
   <item>
     <title>Complete SEO Guide for Static Sites</title>
     <link>https://pycora.axcora.com/posts/seo/</link>
     <guid>https://pycora.axcora.com/posts/seo/</guid>
     <description><![CDATA[Optimize your static site for search engines using PyCora's built-in SEO features]]></description>
-    <pubDate>Fri, 04 Sep 2026 06:42:20 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 14:31:18 GMT</pubDate>
   </item>
   <item>
     <title>Essential Markdown Tips for Better Blogging</title>
     <link>https://pycora.axcora.com/posts/tips/</link>
     <guid>https://pycora.axcora.com/posts/tips/</guid>
     <description><![CDATA[Learn how to write better blog posts using Markdown with PyCora]]></description>
-    <pubDate>Fri, 04 Sep 2026 06:42:20 GMT</pubDate>
+    <pubDate>Fri, 04 Sep 2026 14:31:18 GMT</pubDate>
   </item>
 </channel>
 </rss>
