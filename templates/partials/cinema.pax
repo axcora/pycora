@@ -1,0 +1,20 @@
+<div class="video-bg-container" id="video-bg-container">
+<video 
+  id="bg-video"
+  autoplay 
+  muted 
+  loop 
+  playsinline
+  preload="none"
+  poster="{{cinema.cover}}"
+  width="1920"
+  height="1080"
+>
+<source src="{{cinema.video}}" type="video/mp4">
+</video>
+    <img class="video-bg-fallback" id="bg-fallback" 
+    src="{{cinema.cover}}" 
+    alt="{{title}}">
+</div>
+<div class="video-loading-global" id="video-loading-global">🎬 LOADING CINEMATIC...</div>
+<div class="scroll-indicator" id="scroll-indicator">▼ SCROLL DOWN ▼</div>

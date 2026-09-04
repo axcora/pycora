@@ -1,0 +1,14 @@
+<footer class="gothic-footer">
+      <div class="gothic-container">
+        <div class="footer-grid">
+          <div><div class="footer-brand-title"><img src="{{medusa.home.footer.logo}}" loading="lazy" 
+          alt="{{medusa.home.footer.title}}" style="width:36px; height:36px; border-radius:50%; border:1px solid #10b981;" referrerPolicy="no-referrer">
+          <span><a href="{{url}}">{{medusa.home.footer.title}}</a></span></div><p class="footer-brand-desc">{{medusa.home.footer.description}}</p></div>
+          <div><h4 class="footer-heading">{{medusa.home.footer.menu1.title}}</h4><ul class="footer-links">{% for item in medusa.home.footer.menu1.list %}<li><a href="{{item.url}}">{{item.name}}</a></li>{% endfor %}</ul></div>
+          <div><h4 class="footer-heading">{{medusa.home.footer.menu2.title}}</h4><ul class="footer-links">{% for item in medusa.home.footer.menu2.list %}<li><a href="{{item.url}}">{{item.name}}</a></li>{% endfor %}</ul></div>
+          <div><h4 class="footer-heading">{{medusa.home.footer.menu3.title}}</h4><ul class="footer-links">{% for item in medusa.home.footer.menu3.list %}<li><a href="{{item.url}}">{{item.name}}</a></li>{% endfor %}</ul></div>
+        </div>
+        <div class="footer-bottom"><div>© 2026 Pycora Python SSG Project • <a href="https://pycora.axcora.com">pycora.axcora.com</a>. All rights reserved.</div>
+        <div>A technology by <a href="https://axcora.com" target="_blank" rel="noopener">Axcora</a></div></div>
+      </div>
+</footer>

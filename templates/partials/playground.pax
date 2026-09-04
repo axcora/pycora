@@ -1,0 +1,31 @@
+<section class="gothic-section" id="playground">
+  <div class="gothic-container">
+    <div class="section-header">
+      <span class="section-tag">INTERACTIVE ALTAR</span>
+      <h2 class="section-title"><a href="{{medusa.url}}">The Pycora Live Compiler Altar</a></h2>
+      <p class="section-desc">Nyiblorong simple vs Medusa 11ty-like. Test real Pycora frontmatter live.</p>
+    </div>
+    <div class="playground-box">
+      <div class="playground-topbar">
+        <div class="playground-controls">
+          <button class="template-btn active" data-template="nyiblorong">⚡ Nyiblorong</button>
+          <button class="template-btn" data-template="medusa">🐍 Medusa PAX</button>
+          <button class="template-btn" data-template="eleventy">🕸️ 11ty Collections</button>
+          <button class="template-btn" data-template="jekyll">💎 Jekyll Style</button>
+        </div>
+        <button class="btn-gothic btn-venom" id="build-ssg-btn">⚡ RUN PYCORA</button>
+      </div>
+      <div class="playground-split">
+        <div class="editor-col">
+          <div class="col-header"><span>📄 content/post.md</span><span id="preview-status">READY</span></div>
+          <textarea id="playground-editor" class="playground-textarea" spellcheck="false" style="min-height:420px;background:#06080c;color:#e2e8f0;padding:1rem;font-family:monospace;width:100%;border:none"></textarea>
+        </div>
+        <div class="preview-col">
+          <div class="col-header"><span>🌐 output/index.html</span><span id="preview-stats">0.014s • 0 KB</span></div>
+          <div class="preview-frame-content" id="playground-preview" style="min-height:420px;background:#0a0e18;padding:1rem;color:#e2e8f0"></div>
+        </div>
+      </div>
+      <div class="build-log-bar" id="build-log-status" style="padding:0.75rem 1rem;background:#06080c;border-top:1px solid #1e293b">✨ <span style="color:#10b981">Ready — Nyiblorong → Medusa • Pycora v2.4.1 PAX 11ty + Jinja Fix</span></div>
+    </div>
+  </div>
+</section>

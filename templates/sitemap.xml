@@ -14,7 +14,7 @@
     
     <!-- Blog -->
     <url>
-        <loc>{{ site.url }}/blog/</loc>
+        <loc>{{ site.url }}</loc>
         <lastmod>{{ now.strftime('%Y-%m-%d') }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
@@ -23,7 +23,7 @@
     <!-- Posts -->
     {% for post in posts %}
     <url>
-        <loc>{{ site.url }}/blog/{{ post.metadata.slug }}/</loc>
+        <loc>{{ site.url }}{{ post.url }}/</loc>
         <lastmod>{{ post.date.strftime('%Y-%m-%d') }}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -33,7 +33,7 @@
     <!-- Pages -->
     {% for page in pages %}
     <url>
-        <loc>{{ site.url }}/{{ page.slug }}/</loc>
+        <loc>{{ site.url }}/{{ page.url }}/</loc>
         <lastmod>{{ now.strftime('%Y-%m-%d') }}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>

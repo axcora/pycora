@@ -1,0 +1,27 @@
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="fJTzwsNcz2AtRxQpJZzU7db7TLPdR_lKSAXfyWDtHB4">
+  <meta name="google-site-verification" content="Xi3WpckDbMBvm1pdlc5XukNoA9uWDmnExIiOeaTOxq0">
+  <title>{{ seo_title or title }}</title>
+  <meta name="description" content="{{ seo_desc or description }}">
+  <meta name="keywords" content="{{ seo_keywords }}">
+  <link rel="canonical" href="{{ seo_canonical }}">
+  <meta name="robots" content="index, follow">
+  {{ generator_meta | safe }}
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ seo_title }}">
+  <meta property="og:description" content="{{ seo_desc }}">
+  <meta property="og:url" content="{{ seo_canonical }}">
+  <meta property="og:image" content="{{medusa.url}}{{ seo_image }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ seo_title }}">
+  <meta name="twitter:description" content="{{ seo_desc }}">
+  <meta name="twitter:image" content="{{ seo_image }}">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preload" as="image" href="{{medusa.url}}{{hero.overlay or medusa.home.nav.logo}}" fetchpriority="high">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/axcora-css@1.0.1/axcora.min.css">
+  <link rel="stylesheet" href="/css/gothic.css">
+  <meta name="theme-color" content="#040507">
+  <link rel="icon" href="{{ medusa.home.nav.logo }}" type="image/png">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Pycora","description":"{{ seo_desc }}","url":"{{ seo_canonical }}","author":{"@type":"Organization","name":"Axcora Technology"}}</script>

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+{% include "partials/seo" %}
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+{% include "partials/header" %}
+{% include "partials/cinema" %}
+{% include "partials/hero" %}
+{% include "partials/version" %}
+{% include "partials/philosophy" %}
+{% include "partials/features" %}
+{% include "partials/docs" %}
+{% include "partials/playground" %}
+{% include "partials/footer" %}
+<script src="https://cdn.jsdelivr.net/npm/axcora-js@1.0.1/axcora.min.js" defer></script>
+  <script src="/js/app.js" defer></script>
+</body>
+</html>

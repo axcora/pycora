@@ -13,8 +13,8 @@
         <item>
             <title>{{ post.metadata.title }}</title>
             <description><![CDATA[{{ post.content }}]]></description>
-            <link>{{ site.url }}/blog/{{ post.metadata.slug }}/</link>
-            <guid>{{ site.url }}/blog/{{ post.metadata.slug }}/</guid>
+            <link>{{ site.url }}{{ post.metadata.slug }}/</link>
+            <guid>{{ site.url }}{{ post.metadata.slug }}/</guid>
             <pubDate>{{ post.date.strftime('%a, %d %b %Y %H:%M:%S +0000') }}</pubDate>
             {% for tag in post.metadata.tags %}
             <category>{{ tag }}</category>

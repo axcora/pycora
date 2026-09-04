@@ -1,0 +1,162 @@
+name: PYCORA MEDUSA
+title: Medusa Version - Python SSG Free Collections + Axcora CSS 10kb
+description: Static Site Generator with Python - Fast, Minimal, Elegant - Medusa V2.1.0 with free collections, no hardcode
+main_url: https://pycora.axcora.com
+url: https://pycora.axcora.com
+author: Axcora Technology
+twitter_username: "@axcora"
+image: /img/axcoranewlogored.webp
+favicon: /img/axcoranewlogored.webp
+logo: /img/axcoranewlogored.webp
+
+# SEO defaults
+site_name: PYCORA MEDUSA
+locale: en_US
+type: website
+
+about: 
+  title: Axcora Technology
+  logo: /img/axcoranewlogored.webp
+  description: Axcora Technology is a software development company that specializes in creating innovative solutions for businesses and individuals. We are dedicated to delivering high-quality software products and services that meet the unique needs of our clients.
+  button: 
+    text: Visit Axcora
+    url: https://axcora.com
+
+nav:
+  title: MEDUSA Version
+  list:
+    - name: Home
+      url: /medusa-version/
+    - name: About
+      url: /pages/medusa/about/
+    - name: Docs
+      url: /pages/medusa/docs/
+    - name: Blog
+      url: /medusa-blog/
+    - name: Support
+      url: /pages/medusa/donate/
+    - name: Download
+      url: https://creativitaz.gumroad.com/l/pycora
+    - name: Github
+      url: https://github.com/mesinkasir/pycora
+  button:
+    text: Github
+    url: https://github.com/mesinkasir/pycora
+  button2:
+    text: Download
+    url: https://creativitaz.gumroad.com/l/pycora
+
+footer:
+  image: /img/axcoranewlogored.webp
+  title: PYCORA MEDUSA
+  text: Pycora Medusa V2.3.0 is a lightweight Python Static Site Generator built with 11ty free collections concept and no hardcode. Built on Axcora CSS 10kb, it offers automatic TOC, prev/next navigation, related posts by tags, dynamic pagination with pagination.first_url, RSS, JSON, Atom feeds, sitemap, and SEO-ready output. Every folder in content automatically becomes its own collection without config. Part of Axcora Ecosystem, open source, MIT licensed, fast and minimal for modern JAMstack websites.
+  list1:
+    - name: Home
+      url: /docs/
+    - name: About
+      url: /pages/medusa/about/
+    - name: Docs
+      url: /pages/medusa/docs/
+    - name: Blog
+      url: /medusa-blog/
+    - name: Support
+      url: /pages/medusa/donate/
+    - name: Nyi Blorong
+      url: /nyi-blorong-version/
+    - name: Main Site
+      url: /
+  list2:
+    - name: Paypal
+      url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN
+    - name: Coffee
+      url: https://creativitaz.gumroad.com/coffee
+    - name: Sponsor
+      url: https://github.com/sponsors/mesinkasir
+    - name: Github
+      url: https://github.com/mesinkasir
+    - name: Fiverr
+      url: https://fiverr.com/creativitas
+    - name: Axcora
+      url: https://axcora.com
+    - name: Labs
+      url: https://axcora.my.id
+  list3:
+    - name: Atom
+      url: /atom.xml
+    - name: JSON
+      url: /feed.json
+    - name: Feed
+      url: /feed.xml
+    - name: Sitemap
+
+donate:
+  title: Support PyCora
+  description: Help us build better tools for the open source community
+  github: https://github.com/sponsors/mesinkasir
+  paypal: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN
+  gumroad: https://creativitaz.gumroad.com/coffee
+  tiers:
+    - amount: $5
+      label: Open Source Supporter
+      desc: Support ongoing development
+    - amount: $10
+      label: Project Supporter
+      desc: Help maintain Axcora tools
+    - amount: $25
+      label: Ecosystem Partner
+      desc: Name in project README
+    - amount: $55
+      label: Corporate Partner
+      desc: Logo & link in README
+
+home: 
+  nav: 
+    logo: /images/python-ssg-pycora-medusa (4).webp
+    title: Pycora
+    badge: PYTHON SSG
+    list: 
+      - name: Overview
+        url: "#overview"
+      - name: Bloodline
+        url: "#versioning"
+      - name: Covenant
+        url: "#philosophy"
+      - name: Serpent Engine
+        url: "#features"
+      - name: The Rituals
+        url: "#faq-docs"
+      - name: SSG ALTAR
+        url: "#playground"
+  footer: 
+    logo: /images/python-ssg-pycora-medusa (4).webp
+    title: PYCORA SSG
+    description: The dark conceptual Python static site generator standard brought to you by <code>pycora.axcora.com</code>. Pre-render content with stone-cold performance and zero JavaScript bloat.
+    menu1: 
+      title: PYCORA CORE
+      list: 
+        - name: Medusa Version
+          url: /medusa-version/
+        - name: Nyi Blorong
+          url: /nyi-blorong-version/
+        - name: Github
+          url: https://gituhb.com/mesinkasir/pycora
+    menu2: 
+      title: SUPPORT
+      list: 
+        - name: Paypal
+          url: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN
+        - name: Coffee
+          url: https://creativitaz.gumroad.com/coffee
+        - name: Sponsor
+          url: https://github.com/sponsors/mesinkasir
+    menu3: 
+      title: NETWORK
+      list: 
+        - name: Hire Our Team
+          url: https://www.fiverr.com/creativitas/create-your-custom-website-and-app
+        - name: Axcora
+          url: https://www.axcora.com
+        - name: Labs
+          url: https://axcora.my.id
+
+

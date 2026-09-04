@@ -1,0 +1,47 @@
+<section class="hero-section" id="overview">
+      <div class="hero-bg">
+        <img src="{{hero.overlay}}" alt="{{hero.badge}}" 
+        class="img-fluid" referrerPolicy="no-referrer">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="gothic-container">
+        <div class="hero-grid">
+          <div class="hero-text-col">
+            <div class="hero-badge">
+              <a href="{{medusa.url}}" class="inhe">{{ hero.badge }}</a>
+            </div>
+            <h1 class="hero-title">
+              {{ hero.title | safe }}
+            </h1>
+            <p class="hero-subtitle">
+              {{ hero.subtitle }}
+            </p>
+            <div class="hero-actions">
+              <a href="{{ hero.cta1_url }}" class="btn-gothic btn-venom">
+                {{ hero.cta1_text }}
+              </a>
+              <a href="{{ hero.cta2_url }}" class="btn-gothic btn-outline-gothic">
+                {{ hero.cta2_text }}
+              </a>
+            </div>
+            <div class="hero-stats-grid">
+              {% for stat in hero.stats %}
+              <div class="stat-card">
+                <div class="stat-val">{{ stat.val }}</div>
+                <div class="stat-lbl">{{ stat.lbl }}</div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="hero-visual-col">
+            <div class="medusa-3d-wrapper" id="floating-medusa-3d">
+              <div class="hero-emblem-card">
+                <img src="{{ hero.image }}" width="400" height="300" alt="{{ title }}" class="hero-emblem-img" referrerPolicy="no-referrer">
+                <h2 class="emblem-title"><a href="{{medusa.url}}" class="inherit">{{ hero.emblem_title }}</a></h2>
+                <p class="emblem-desc">{{ hero.emblem_desc }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>

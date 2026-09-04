@@ -1,0 +1,19 @@
+<section class="gothic-section" id="philosophy">
+      <div class="gothic-container">
+        <div class="section-header">
+          <span class="section-tag">{{ philosophy.tag }}</span>
+          <h2 class="section-title"><a href="{{medusa.url}}">{{ philosophy.title }}</a></h2>
+          <p class="section-desc">{{ philosophy.desc }}</p>
+        </div>
+        <div class="philosophy-grid">
+          {% for pillar in philosophy.pillars %}
+          <div class="philosophy-card">
+            <span class="philosophy-num">{{ pillar.num }}</span>
+            <div class="philosophy-icon">{{ pillar.icon }}</div>
+            <h3 class="philosophy-title"><a href="{{medusa.url}}" class="inhe">{{ pillar.title }}</a></h3>
+            <p class="philosophy-text">{{ pillar.text }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+</section>

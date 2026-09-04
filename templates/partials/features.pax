@@ -1,0 +1,18 @@
+<section class="gothic-section" id="features">
+      <div class="gothic-container">
+        <div class="section-header">
+          <span class="section-tag">{{ features.tag }}</span>
+          <h2 class="section-title"><a href="{{medusa.url}}" class="inhe">{{ features.title }}</a></h2>
+          <p class="section-desc">{{ features.desc }}</p>
+        </div>
+        <div class="features-grid">
+          {% for f in features['items'] %}
+          <div class="feature-card">
+            <div class="feature-icon-box">{{ f.icon }}</div>
+            <h3 class="feature-title"><a href="{{medusa.url}}" class="inhe">{{ f.title }}</a></h3>
+            <p class="feature-text">{{ f.text }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+</section>

@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row mt-5">
+    <div class="col-lg-8">
+        <h1 class="fw-bold mb-4">BlogS</h1>
+        <p class=" mb-5">Thoughts, stories, and ideas.</p>
+        
+        {% for post in posts %}
+        <article class="blog-card">
+            <div class="d-flex flex-wrap gap-2 mb-3">
+                <span class="badge bg-dark text-white  fw-normal">
+                    <i class="far fa-calendar me-1"></i>
+                    {{ post.date.strftime('%B %d, %Y') }}
+                </span>
+                {% if post.author %}
+                <span class="badge bg-dark text-white  fw-normal">
+                    <i class="far fa-user me-1"></i>
+                    {{ post.author }}
+                </span>
+                {% endif %}
+                <span class="badge bg-dark text-white  fw-normal">
+                    <i class="far fa-clock me-1"></i>
+                    {{ post.content|wordcount // 200 + 1 }} min read
+                </span>
+            </div>
+			
+			{% if post.image %}
+            <a href="{{ post.url }}">
+                <img class="img-fluid rounded-3" width="100%" height="100%" 
+                alt="{{ post.title }}"
+				src="{{post.image}}"/>
+            </a>
+			{% endif %}
+            
+            <a href="{{ post.url }}" class="post-title">
+                {{ post.title }}
+            </a>
+            
+            <p class="post-excerpt">
+                {{ post.description }}
+            </p>
+            
+            <div class="post-tags">
+                {% for tag in post.tags %} 
+                <a href="/tags/{{ tag }}" class="tag">#{{ tag }}</a>
+                {% endfor %}
+            </div>
+        </article>
+        {% endfor %}
+        
+        {% if total_pages > 1 %}
+        <nav aria-label="Blog pagination">
+            <ul class="pagination-custom">
+                {% if current_page > 1 %}
+                <li class="page-item">
+                    <a class="page-link" href="/blog/page/{{ current_page - 1 }}">
+                        <i class="fas fa-arrow-left me-1"></i> Prev
+                    </a>
+                </li>
+                {% endif %}
+                
+                {% for page_num in range(1, total_pages + 1) %}
+                <li class="page-item">
+                    <a class="page-link {% if page_num == current_page %}active{% endif %}" 
+                       href="/blog/page/{{ page_num }}">
+                        {{ page_num }}
+                    </a>
+                </li>
+                {% endfor %}
+                
+                {% if current_page < total_pages %}
+                <li class="page-item">
+                    <a class="page-link" href="/blog/page/{{ current_page + 1 }}">
+                        Next <i class="fas fa-arrow-right ms-1"></i>
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+        {% endif %}
+    </div>
+    
+    <div class="col-lg-4">
+        <div class="blog-card">
+            <h3 class="fw-bold mb-3 h5">All Tags</h3>
+            <div class="d-flex flex-wrap gap-2">
+                {% for tag, posts in tags.items() %} 
+                <a href="/tags/{{ tag }}" class="btn btn-outline-secondary btn-sm me-1">#{{ tag }} ({{ posts|length }})</a>
+                {% endfor %}
+            </div>
+        </div>
+        
+        <div class="blog-card mt-4 text-center justify-content-center">
+            <h3 class="fw-bold mb-3 h5">About</h3>
+			{% if site.image %}
+			<img class="img-thumbnail rounded-circle" alt="{{site.name}}" width="120" height="120" src="{{site.image}}"/>
+			{% endif %}
+			<p class="fw-bold">
+			{{ site.name }}
+			</p>
+            <p class=" small">
+                {{ site.description }}
+            </p>
+            <a href="/about" class="btn btn-outline-dark w-100">Learn More</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

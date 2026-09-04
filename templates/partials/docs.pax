@@ -1,0 +1,21 @@
+<section class="gothic-section" id="faq-docs">
+      <div class="gothic-container">
+        <div class="section-header">
+          <span class="section-tag">{{ faq.tag }}</span>
+          <h2 class="section-title"><a href="{{medusa.url}}" class="inhe">{{ faq.title }}</a></h2>
+          <p class="section-desc">{{ faq.desc | safe }}</p>
+        </div>
+        <div class="faq-search-wrapper">
+          <span class="faq-search-icon">🔍</span>
+          <input type="text" id="faq-search-input" class="faq-search-input" placeholder="Search Pycora docs (e.g., Jinja2, Frontmatter, CLI, Deploy, Axcora CSS)..." aria-label="Filter Pycora Documentation">
+        </div>
+        <div class="faq-accordion-wrapper" id="faq-accordion">
+          {% for item in faq['items'] %}
+          <div class="accordion-item{% if loop.first %} active{% endif %}">
+            <button class="accordion-header"><span>{{ item.q }}</span><span class="accordion-icon">▼</span></button>
+            <div class="accordion-content"><div class="accordion-body-text p-3"><p>{{ item.a | safe }}</p>{% if item.a2 %}<p>{{ item.a2 | safe }}</p>{% endif %}{% if item.code %}<div class="code-block-wrapper"><button class="code-copy-btn">Copy</button><code>{{ item.code }}</code></div>{% endif %}{% if item.a_after %}<p>{{ item.a_after | safe }}</p>{% endif %}{% if item.list %}<ul>{% for li in item.list %}<li>{{ li | safe }}</li>{% endfor %}</ul>{% endif %}</div></div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+</section>
