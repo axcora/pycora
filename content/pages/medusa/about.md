@@ -9,6 +9,13 @@ layout: medusa/page
 
 Pycora is Python Static Site Generator - Fast, Minimal, Elegant. Built with love by Axcora Technology.
 
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.min.css">
+<script src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.min.js"></script>
+<div class="mt-2 mb-2">
+<lite-youtube  title="pycora MEDUSA VERSION python static site generator" videoid="4NVcO099xRw" params="rel=0&modestbranding=1" style="border-radius:12px"></lite-youtube>
+</div>
+
 ## Two Versions:
 
 ### Nyiblorong Version (Old) - Bootstrap 5

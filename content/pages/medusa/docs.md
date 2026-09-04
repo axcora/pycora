@@ -12,6 +12,12 @@ toc: true
 > Old docs: https://pycora.axcora.com/docs/ (Nyiblorong Bootstrap version)
 > New docs: This page - Medusa Axcora CSS version
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.min.css">
+<script src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.min.js"></script>
+<div class="mt-2 mb-2">
+<lite-youtube  title="pycora medusa python static site generator" videoid="N3x3oQFju1w" params="rel=0&modestbranding=1" style="border-radius:12px"></lite-youtube>
+</div>
+
 ## Table of Contents
 - Features (Old + New)
 - Requirements

@@ -12,6 +12,13 @@ layout: nyiblorong/page
 
 A project present by [Axcora Technology](https://axcora.com)
 
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.min.css">
+<script src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.min.js"></script>
+<div class="mt-2 mb-2">
+<lite-youtube  videoid="5E0yeXzy4rc" title="pycora nyiblorong python static site generator" params="rel=0&modestbranding=1" style="border-radius:12px"></lite-youtube>
+</div>
+
 ---
 
 ## 🚀 What is PyCora?

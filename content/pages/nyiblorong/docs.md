@@ -10,6 +10,13 @@ layout: nyiblorong/page
 
 Welcome to the complete documentation for **PyCora** - a lightweight, fast, and elegant static site generator built with Python.
 
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.min.css">
+<script src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.min.js"></script>
+<div class="mt-2 mb-2">
+<lite-youtube  title="pycora python static site generator NYI BLORONG" videoid="eK_Xorfk3-4" params="rel=0&modestbranding=1" style="border-radius:12px"></lite-youtube>
+</div>
+
 ---
 
 ## Table of Contents

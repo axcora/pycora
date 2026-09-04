@@ -11,7 +11,7 @@
         <span class="philosophy-num">{{ v.num }}</span>
         <div class="philosophy-icon">{{ v.icon }}</div>
         <h3 class="philosophy-title"><a href="{{medusa.url}}" class="inhe">{{ v.title }}</a></h3>
-        <img class="img-fluid" loading="lazy" alt="{{ v.title }}" width="100%" height="100%" src="{{ v.image }}"/>
+        <a href="{{ v.button.url }}"><img class="img-fluid" loading="lazy" alt="{{ v.title }}" width="100%" height="100%" src="{{ v.image }}"/></a>
         <p class="philosophy-text">{{ v.text }}</p>
         <ul class="version-features">
           {% for f in v.features %}
