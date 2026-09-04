@@ -2,28 +2,28 @@
   "version": "https://jsonfeed.org/version/1",
   "title": "PYCORA",
   "description": "Static Site Generator with Python - Fast, Minimal, Elegant",
-  "home_page_url": "http://localhost:8000/",
-  "feed_url": "http://localhost:8000/feed.json",
+  "home_page_url": "https://pycora.axcora.com/",
+  "feed_url": "https://pycora.axcora.com/feed.json",
   "items": [
     {
-      "id": "http://localhost:8000/pages/medusa/about/",
-      "url": "http://localhost:8000/pages/medusa/about/",
+      "id": "https://pycora.axcora.com/pages/medusa/about/",
+      "url": "https://pycora.axcora.com/pages/medusa/about/",
       "title": "About Pycora Medusa",
       "summary": "About Pycora Python SSG - Medusa Version with Axcora CSS lightweight framework",
-      "date_published": "2026-09-04T06:38:00.707708",
+      "date_published": "2026-09-04T06:42:20.083347",
       "tags": []
     },
     {
-      "id": "http://localhost:8000/pages/medusa/docs/",
-      "url": "http://localhost:8000/pages/medusa/docs/",
+      "id": "https://pycora.axcora.com/pages/medusa/docs/",
+      "url": "https://pycora.axcora.com/pages/medusa/docs/",
       "title": "Pycora Medusa Documentation",
       "summary": "Complete documentation for Pycora Medusa - free collections, Axcora CSS, blog.md controller, prev/next, .pax support, old and new docs combined",
-      "date_published": "2026-09-04T06:38:00.707714",
+      "date_published": "2026-09-04T06:42:20.083351",
       "tags": []
     },
     {
-      "id": "http://localhost:8000/posts/python-vs-javascript-startups/",
-      "url": "http://localhost:8000/posts/python-vs-javascript-startups/",
+      "id": "https://pycora.axcora.com/posts/python-vs-javascript-startups/",
+      "url": "https://pycora.axcora.com/posts/python-vs-javascript-startups/",
       "title": "Python vs JavaScript for Startups 2026",
       "summary": "Which language is better for your startup?",
       "date_published": "2026-08-28T00:00:00",
@@ -34,8 +34,8 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/future-of-python-2026/",
-      "url": "http://localhost:8000/posts/future-of-python-2026/",
+      "id": "https://pycora.axcora.com/posts/future-of-python-2026/",
+      "url": "https://pycora.axcora.com/posts/future-of-python-2026/",
       "title": "Future of Python in 2026 and Beyond",
       "summary": "Why Python remains relevant in the future",
       "date_published": "2026-08-28T00:00:00",
@@ -46,8 +46,8 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/python-data-science-ml/",
-      "url": "http://localhost:8000/posts/python-data-science-ml/",
+      "id": "https://pycora.axcora.com/posts/python-data-science-ml/",
+      "url": "https://pycora.axcora.com/posts/python-data-science-ml/",
       "title": "Python Data Science & ML Guide 2026",
       "summary": "Complete guide to Python for data science",
       "date_published": "2026-08-28T00:00:00",
@@ -58,8 +58,8 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/python-vs-php-2026/",
-      "url": "http://localhost:8000/posts/python-vs-php-2026/",
+      "id": "https://pycora.axcora.com/posts/python-vs-php-2026/",
+      "url": "https://pycora.axcora.com/posts/python-vs-php-2026/",
       "title": "Python vs PHP in 2026",
       "summary": "Compare Python and PHP for web development",
       "date_published": "2026-08-28T00:00:00",
@@ -70,8 +70,8 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/3-best-python-frameworks-2026/",
-      "url": "http://localhost:8000/posts/3-best-python-frameworks-2026/",
+      "id": "https://pycora.axcora.com/posts/3-best-python-frameworks-2026/",
+      "url": "https://pycora.axcora.com/posts/3-best-python-frameworks-2026/",
       "title": "Top 5 Python Web Frameworks 2026",
       "summary": "Best Python frameworks for web development",
       "date_published": "2026-08-28T00:00:00",
@@ -83,8 +83,8 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/python-static-site-generators/",
-      "url": "http://localhost:8000/posts/python-static-site-generators/",
+      "id": "https://pycora.axcora.com/posts/python-static-site-generators/",
+      "url": "https://pycora.axcora.com/posts/python-static-site-generators/",
       "title": "Python Static Site Generators Guide",
       "summary": "Build fast websites with Python SSGs",
       "date_published": "2026-08-28T00:00:00",
@@ -95,8 +95,8 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/why-python-popular-2026/",
-      "url": "http://localhost:8000/posts/why-python-popular-2026/",
+      "id": "https://pycora.axcora.com/posts/why-python-popular-2026/",
+      "url": "https://pycora.axcora.com/posts/why-python-popular-2026/",
       "title": "Why Python Became the Most Popular Programming Language in 2026",
       "summary": "Discover why Python dominates the programming world in 2026. From AI to web development, explore Python's key advantages",
       "date_published": "2026-08-28T00:00:00",
@@ -108,11 +108,11 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/medusa/pax-templating/",
-      "url": "http://localhost:8000/posts/medusa/pax-templating/",
+      "id": "https://pycora.axcora.com/posts/medusa/pax-templating/",
+      "url": "https://pycora.axcora.com/posts/medusa/pax-templating/",
       "title": "Medusa .PAX Template Support - Cleaner Templating",
       "summary": "Medusa introduces .pax template support - have both .html and .pax, PAXLoader auto fallback, cleaner separation",
-      "date_published": "2026-09-04T06:38:00.707733",
+      "date_published": "2026-09-04T06:42:20.083365",
       "tags": [
         "pycora",
         "medusa",
@@ -122,11 +122,11 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/medusa/prev-next/",
-      "url": "http://localhost:8000/posts/medusa/prev-next/",
+      "id": "https://pycora.axcora.com/posts/medusa/prev-next/",
+      "url": "https://pycora.axcora.com/posts/medusa/prev-next/",
       "title": "Medusa Fixes Prev Next Post and Absolute URL 404",
       "summary": "Fixing two critical bugs prev next post missing and relative URL",
-      "date_published": "2026-09-04T06:38:00.707735",
+      "date_published": "2026-09-04T06:42:20.083367",
       "tags": [
         "pycora",
         "medusa",
@@ -136,11 +136,11 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/medusa/axcora-css/",
-      "url": "http://localhost:8000/posts/medusa/axcora-css/",
+      "id": "https://pycora.axcora.com/posts/medusa/axcora-css/",
+      "url": "https://pycora.axcora.com/posts/medusa/axcora-css/",
       "title": "Why Medusa Uses Axcora CSS - 5x Lighter Than Bootstrap",
       "summary": "Medusa switches from Bootstrap 5 60kb to Axcora CSS 10kb - 5x lighter, Lighthouse 95+, same familiar classes",
-      "date_published": "2026-09-04T06:38:00.707738",
+      "date_published": "2026-09-04T06:42:20.083369",
       "tags": [
         "pycora",
         "medusa",
@@ -150,11 +150,11 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/medusa/collections/",
-      "url": "http://localhost:8000/posts/medusa/collections/",
+      "id": "https://pycora.axcora.com/posts/medusa/collections/",
+      "url": "https://pycora.axcora.com/posts/medusa/collections/",
       "title": "Medusa  Free Collections - No Hardcode Explained",
       "summary": "How Medusa implements  style free collections - every folder auto becomes collection, no hardcode, slicing [:3], limit(), where() filters",
-      "date_published": "2026-09-04T06:38:00.707740",
+      "date_published": "2026-09-04T06:42:20.083371",
       "tags": [
         "pycora",
         "medusa",
@@ -163,11 +163,11 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/nyiblorong/nyiblorong-vs-medusa/",
-      "url": "http://localhost:8000/posts/nyiblorong/nyiblorong-vs-medusa/",
+      "id": "https://pycora.axcora.com/posts/nyiblorong/nyiblorong-vs-medusa/",
+      "url": "https://pycora.axcora.com/posts/nyiblorong/nyiblorong-vs-medusa/",
       "title": "Nyiblorong vs Medusa - Comparison Guide",
       "summary": "Compare Nyiblorong Bootstrap vs Medusa Axcora CSS - which to choose for your Python SSG project",
-      "date_published": "2026-09-04T06:38:00.707742",
+      "date_published": "2026-09-04T06:42:20.083373",
       "tags": [
         "pycora",
         "nyiblorong",
@@ -177,11 +177,11 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/nyiblorong/why-nyi-blorong-ssg-pyrcora-python/",
-      "url": "http://localhost:8000/posts/nyiblorong/why-nyi-blorong-ssg-pyrcora-python/",
+      "id": "https://pycora.axcora.com/posts/nyiblorong/why-nyi-blorong-ssg-pyrcora-python/",
+      "url": "https://pycora.axcora.com/posts/nyiblorong/why-nyi-blorong-ssg-pyrcora-python/",
       "title": "Nyiblorong Python SSG - Bootstrap 5 Classic Version",
       "summary": "Nyiblorong version is classic Pycora with Bootstrap 5 - stable, familiar, good for starter but heavy",
-      "date_published": "2026-09-04T06:38:00.707745",
+      "date_published": "2026-09-04T06:42:20.083375",
       "tags": [
         "pycora",
         "nyiblorong",
@@ -191,11 +191,11 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/better/",
-      "url": "http://localhost:8000/posts/better/",
+      "id": "https://pycora.axcora.com/posts/better/",
+      "url": "https://pycora.axcora.com/posts/better/",
       "title": "Why Static Sites Are Better for Your Blog",
       "summary": "Discover the benefits of using static site generators like PyCora for blogging",
-      "date_published": "2026-09-04T06:38:00.707747",
+      "date_published": "2026-09-04T06:42:20.083377",
       "tags": [
         "static-site",
         "blogging",
@@ -204,11 +204,11 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/custom/",
-      "url": "http://localhost:8000/posts/custom/",
+      "id": "https://pycora.axcora.com/posts/custom/",
+      "url": "https://pycora.axcora.com/posts/custom/",
       "title": "How to Customize Your PyCora Theme",
       "summary": "Learn how to customize the look and feel of your PyCora static site",
-      "date_published": "2026-09-04T06:38:00.707750",
+      "date_published": "2026-09-04T06:42:20.083378",
       "tags": [
         "customization",
         "theming",
@@ -217,11 +217,11 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/deploy/",
-      "url": "http://localhost:8000/posts/deploy/",
+      "id": "https://pycora.axcora.com/posts/deploy/",
+      "url": "https://pycora.axcora.com/posts/deploy/",
       "title": "Deploy Your Static Site Anywhere",
       "summary": "Learn how to deploy your PyCora static site to various hosting platforms",
-      "date_published": "2026-09-04T06:38:00.707752",
+      "date_published": "2026-09-04T06:42:20.083380",
       "tags": [
         "deployment",
         "hosting",
@@ -231,11 +231,11 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/seo/",
-      "url": "http://localhost:8000/posts/seo/",
+      "id": "https://pycora.axcora.com/posts/seo/",
+      "url": "https://pycora.axcora.com/posts/seo/",
       "title": "Complete SEO Guide for Static Sites",
       "summary": "Optimize your static site for search engines using PyCora's built-in SEO features",
-      "date_published": "2026-09-04T06:38:00.707755",
+      "date_published": "2026-09-04T06:42:20.083382",
       "tags": [
         "seo",
         "optimization",
@@ -244,11 +244,11 @@
       ]
     },
     {
-      "id": "http://localhost:8000/posts/tips/",
-      "url": "http://localhost:8000/posts/tips/",
+      "id": "https://pycora.axcora.com/posts/tips/",
+      "url": "https://pycora.axcora.com/posts/tips/",
       "title": "Essential Markdown Tips for Better Blogging",
       "summary": "Learn how to write better blog posts using Markdown with PyCora",
-      "date_published": "2026-09-04T06:38:00.707757",
+      "date_published": "2026-09-04T06:42:20.083384",
       "tags": [
         "markdown",
         "blogging",
