@@ -34,6 +34,8 @@ hero:
   cta1_url: "#faq-docs"
   cta2_text: "⚡ Launch SSG Altar"
   cta2_url: "#playground"
+  pro_url: "https://pycorapro.axcora.com/"
+  pro_cta: "TRY PYCORA PRO →"
   stats:
     - val: "Jinja2"
       lbl: "Nyi blorong Core"
@@ -68,7 +70,7 @@ versioning:
     - num: "v2.0"
       icon: "🐍"
       title: "Medusa"
-      image: "/images/medusa1.webp"
+      image: "/images/meudsameryap.webp"
       text: "The new ritual. Like Eleventy and Jekyll, but in Python. Supports PAX layout, Jinja2 full fix for [:3] and | limit(3), Axcora CSS injection the ligthweight CSS Framework."
       features:
         - "PAX + Jinja2 full JAMSTACK-like"
@@ -79,6 +81,23 @@ versioning:
         text: 🐍 Invoke Medusa →
         url: /medusa-version/
         style: outline-gothic
+    - num: "v3.0"
+      icon: "🔥"
+      title: "Pycora Pro"
+      badge: "PREMIUM"
+      pro: true
+      image: "/images/medusatongkat.webp"
+      text: "The full production system. Minimalist Bento Grid design, Decap CMS pre-configured, pricing, FAQ, portfolio, testimonial — all wired to YAML, ready to rebrand."
+      features:
+        - "Minimalist Bento Grid design"
+        - "Decap CMS pre-configured"
+        - "Pricing, FAQ, portfolio, testimonial"
+        - "White-label, resale allowed"
+        - "Free lifetime updates"
+      button: 
+        text: 🔥 TRY PYCORA PRO →
+        url: https://pycorapro.axcora.com/
+        style: pro
 
 philosophy:
   tag: "FILOSOFI PROJECT PYCORA"
