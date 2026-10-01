@@ -24,6 +24,8 @@ nav:
     url: /medusa-version/
   - name: Blorong
     url: /nyi-blorong-version/
+  - name: Pycora PRO
+    url: https://pycorapro.axcora.com/
   button:
     text: Github
     icon: fab fa-github

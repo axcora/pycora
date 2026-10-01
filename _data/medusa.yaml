@@ -37,6 +37,8 @@ nav:
       url: /pages/medusa/donate/
     - name: Download
       url: https://creativitaz.gumroad.com/l/pycora
+    - name: Try PRO
+      url: https://pycorapro.axcora.com
     - name: Github
       url: https://github.com/mesinkasir/pycora
   button:
@@ -63,6 +65,8 @@ footer:
       url: /pages/medusa/donate/
     - name: Nyi Blorong
       url: /nyi-blorong-version/
+    - name: Pycora PRO
+      url: https://pycorapro.axcora.com/
     - name: Main Site
       url: /
   list2:
