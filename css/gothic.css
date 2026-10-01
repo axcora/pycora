@@ -1916,3 +1916,55 @@ pre::-webkit-scrollbar-thumb:hover {
 }
 
 .inhe {color:inherit !important;}
+/* Hero Pro CTA */
+.hero-pro-cta {
+  margin-top: 1.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid rgba(255, 200, 100, 0.3);
+  border-radius: 12px;
+  background: rgba(255, 200, 100, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.hero-pro-text {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
+.btn-pro {
+  background: linear-gradient(135deg, #ffc864, #ff8c42);
+  color: #0a0a0a;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.btn-pro:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 200, 100, 0.3);
+  color: black;
+}
+
+.pro-card {
+  border: 1px solid rgba(255, 200, 100, 0.4);
+  background: linear-gradient(180deg, rgba(255, 200, 100, 0.05), transparent);
+  position: relative;
+}
+
+.pro-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #ffc864, #ff8c42);
+  color: #0a0a0a;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
