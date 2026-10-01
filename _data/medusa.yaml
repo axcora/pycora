@@ -138,6 +138,8 @@ home:
           url: /medusa-version/
         - name: Nyi Blorong
           url: /nyi-blorong-version/
+        - name: Pycora PRO
+          url: https://pycorapro.axcora.com/
         - name: Github
           url: https://gituhb.com/mesinkasir/pycora
     menu2: 
